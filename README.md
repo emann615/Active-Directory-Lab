@@ -54,25 +54,25 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 1. Open VirtualBox.
 2. Click **New** from the top menu bar to set up a new machine.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224441280-8631c621-ded8-4810-ba97-c778ac5b2bbb.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 3. Name the machine **DC** for Domain Controller.
 4. From the dropdown next to **Version**, select **Other Windows (64 bit)**, and click **Next**.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224441366-df922c98-ad0d-4d63-a20a-5287583c4c86.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 5. On the next screen set the amount of **RAM** and the number of **CPUs** you want to use.
    * If you have at least 8GB of RAM on your host computer, setting the RAM to 2048MB works pretty well.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224441587-15a6e9d6-e613-40f2-96b8-027ab11f0d0c.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 6. Click **Next** through the rest of the screens, and click **Finish** on the last screen.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224441678-48b2e4cc-54c6-4e31-96e2-2cf707c133da.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 7. Select **Settings** from the top menu to edit the settings of the virtual machine you just created.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224441749-08b26115-ba8b-4787-b4e7-1e3bda9c980f.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 8. Go to the **Advanced** tab and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to **Bidirectional**.
    * Shared clipboard allows you to copy/paste between your host computer and the virtual machine.
