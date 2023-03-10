@@ -53,13 +53,13 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Open VirtualBox.
 2. Click **New** from the top menu bar to set up a new machine.
-3. Name the machine “DC” for Domain Controller.
-4. From the dropdown next to **Version**, select “Other Windows (64 bit)”, and click **Continue**.
+3. Name the machine **DC** for Domain Controller.
+4. From the dropdown next to **Version**, select “Other Windows (64 bit)”, and click **Next**.
 5. On the next screen set the amount of **RAM** and the number of **CPUs** you want to use.
    * If you have at least 8GB of RAM on your host computer, setting the RAM to 2048MB works pretty well.
-6. Click **Continue** through the rest of the screens, and click **Create** on the last screen.
+6. Click **Next** through the rest of the screens, and click **Finish** on the last screen.
 7. Select **Settings** from the top menu to edit the settings of the virtual machine you just created.
-8. Go to the **Advanced** tab and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to “Bidirectional”.
+8. Go to the **Advanced** tab and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to **Bidirectional**.
    * Shared clipboard allows you to copy/paste between your host computer and the virtual machine.
    * Drag ‘n Drop allows you to drag/drop files between your host computer and the virtual machine.
 9. Select **Network** from the left menu.
