@@ -78,19 +78,19 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
    * Shared clipboard allows you to copy/paste between your host computer and the virtual machine.
    * Drag ‘n Drop allows you to drag/drop files between your host computer and the virtual machine.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224433773-2a570a20-36cb-4f7b-aa43-a10cf459f4ee.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 9. Select **Network** from the left menu.
    * The first network adapter is already enabled and set to NAT. It connects to our home internet. You need to enable a second network adapter that will connect to our internal VirtualBox network.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224433868-7205d48f-e381-44ee-a966-d8b14c2f7d90.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 10. Select **Adapter 2**.
 11. Select the checkbox next to **Enable Network Adapter**.
 12. From the dropdown next to **Attached to** select **Internal Network**.
 13. Click **OK** in the bottom right corner to close the settings.
 
-<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224434172-88a61379-77cd-4b1e-96e8-795f8d84a963.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 <h3>Part 4: Install and Set Up Windows Server 2022 on the DC Virtual Machine</h3>
 
