@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Active Directory (AD) is a directory service created by Microsoft that runs on Windows Servers. It allows administrators to control what access and permissions users and computers have on a domain network. In this lab, I will show you how to set up an Active Directory home lab using Oracle VM VirtualBox.
 <br />
 
 
@@ -18,8 +18,14 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
+<h3>Part 1: Install VirtualBox</h3>
+
+
+
+<p align="left">
+1. Download VirtualBox by going to the following link: <br/>
+  * Download the version for whatever OS you are using <br/>
+(https://www.virtualbox.org/wiki/Downloads)
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
