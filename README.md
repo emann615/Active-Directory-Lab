@@ -33,7 +33,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <h3>Part 2: Download Windows 10 and Windows Server 2022 ISO Files</h3>
 
-1. Download the media installation tool from the following link: https://www.microsoft.com/en-us/software-download/windows10
+1. Download the **media creation tool** from the following link: https://www.microsoft.com/en-us/software-download/windows10
 
 <img src="https://user-images.githubusercontent.com/117882385/224394320-fdba0899-5d7d-4051-9fc0-6e535e95f445.jpg" height="80%" width="80%" alt="Media Tool Download"/>
 
