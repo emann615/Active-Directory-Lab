@@ -53,21 +53,44 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Open VirtualBox.
 2. Click **New** from the top menu bar to set up a new machine.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+
 3. Name the machine **DC** for Domain Controller.
 4. From the dropdown next to **Version**, select **Other Windows (64 bit)**, and click **Next**.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+
 5. On the next screen set the amount of **RAM** and the number of **CPUs** you want to use.
    * If you have at least 8GB of RAM on your host computer, setting the RAM to 2048MB works pretty well.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+
 6. Click **Next** through the rest of the screens, and click **Finish** on the last screen.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+
 7. Select **Settings** from the top menu to edit the settings of the virtual machine you just created.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+
 8. Go to the **Advanced** tab and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to **Bidirectional**.
    * Shared clipboard allows you to copy/paste between your host computer and the virtual machine.
    * Drag ‘n Drop allows you to drag/drop files between your host computer and the virtual machine.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+
 9. Select **Network** from the left menu.
    * The first network adapter is already enabled and set to NAT. It connects to our home internet. You need to enable a second network adapter that will connect to our internal VirtualBox network.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
+
 10. Select **Adapter 2**.
 11. Select the checkbox next to **Enable Network Adapter**.
 12. From the dropdown next to **Attached to** select **Internal Network**.
 13. Click **OK** in the bottom right corner to close the settings.
+
+<img src="#" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 <h3>Part 4: Install and Set Up Windows Server 2022 on the DC Virtual Machine</h3>
 
