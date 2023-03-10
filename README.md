@@ -20,12 +20,12 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <h3>Part 1: Install VirtualBox</h3>
 
-1. Download VirtualBox by going to the following link: https://www.virtualbox.org/wiki/Downloads
+1. Download **VirtualBox** by going to the following link: https://www.virtualbox.org/wiki/Downloads
    * Download the version for whatever OS you are using.
 
 <img src="https://user-images.githubusercontent.com/117882385/224390278-d7e4222c-6e2c-4eb8-8d43-ec41a3b8ec11.jpg" height="80%" width="80%" alt="VirtualBox Download"/>
 
-2. Download the VirtualBox Extension Pack from the same page.
+2. Download the **VirtualBox Extension Pack** from the same page.
 
 <img src="https://user-images.githubusercontent.com/117882385/224393765-d360956a-1bce-4199-830a-830e4551c8f8.jpg" height="80%" width="80%" alt="VirtualBox Extension Pack Download"/>
 
@@ -37,12 +37,12 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224394320-fdba0899-5d7d-4051-9fc0-6e535e95f445.jpg" height="80%" width="80%" alt="Media Tool Download"/>
 
-2. Run the tool and follow the steps to download the Windows 10 ISO.
+2. Run the tool and follow the steps to download the **Windows 10 ISO**.
    * There are instructions on the download page for how to use the tool to download the ISO file.
 
 <img src="https://user-images.githubusercontent.com/117882385/224397663-9602b21e-1542-43bf-8f6e-ea403caa68d5.jpg" height="80%" width="80%" alt="Media Tool Download"/>
 
-3. Download the Windows Server 2022 ISO from the following link: https://info.microsoft.com/ww-landing-windows-server-2022.html
+3. Download the **Windows Server 2022 ISO** from the following link: https://info.microsoft.com/ww-landing-windows-server-2022.html
    * You will have to fill out your information to register for the 180 day free trial in order to download the ISO file.
 
 <img src="https://user-images.githubusercontent.com/117882385/224398317-e1b9868f-5b2f-49a5-8e75-3574c2115523.jpg" height="80%" width="80%" alt="Windows Server 2022 Download"/>
