@@ -9,8 +9,9 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>VirtualBox</b> 
+- <b>Active Directory</b>
+- <b>PowerShell</b>
 
 <h2>Environments Used </h2>
 
@@ -112,24 +113,26 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 4. Click **Mount and Retry Boot** to restart your virtual machine.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515231-0783677c-2897-4623-b6a1-4e0d813ed48b.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 5. Once your VM restarts, the Windows installation tool will appear. Click **Next** and **Install** now.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515262-fa5c0d30-c3a5-4cd4-8882-5fde0ec7bb06.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224515265-8b60f1bc-e646-4138-8137-2e14debbdcd3.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 6. On the next screen select **Windows Server 2022 Standard Evaluation (Desktop Experience)**, and click **Next**.
    * If you select an option that does not say ‘Desktop Experience’ you won’t have a GUI.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515309-d6d192f9-7875-4c7a-8b89-151ef646b95c.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 7. Click the checkbox next to **I accept the license terms**, and click **Next**.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515313-639c5eaf-3246-4daa-8f47-bb2d205c84d3.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 8. Select **Custom: Install Windows only (advanced)** since this is the first time you are installing Windows on this machine.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515516-dd14c013-cc96-4101-bd0d-9233e0c9008a.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 9. Click **Next**, and the tool will install Windows 10 on your machine.
    * During installation your virtual machine will restart several times. You will see a black screen that says 'Press any key to boot from CD or DVD'. Just do not press any buttons until your machine has booted into Windows.
