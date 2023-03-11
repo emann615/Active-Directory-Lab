@@ -137,7 +137,11 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 9. Click **Next**, and the tool will install Windows 10 on your machine.
    * During installation your virtual machine will restart several times. You will see a black screen that says 'Press any key to boot from CD or DVD'. Just do not press any buttons until your machine has booted into Windows.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515654-5fe9ae14-75f8-4ddb-8956-9fb73feb4e2b.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224515660-034307be-b95b-484c-903d-96a88050ce16.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224515688-e98f76a8-2d81-44ad-9afc-a963f0668c3c.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 10. Once your virtual machine has booted into Windows you will need to set a password for your Administrator account.
    * Your password can be anything but I just use something simple like **Password1** if you are just using it for a lab environment.
