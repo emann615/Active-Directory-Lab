@@ -96,20 +96,56 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Double click the DC virtual machine, and it will start in a new window that appears.
    * Once it has loaded a box will appear that says your virtual machine failed to boot. This is because you have not installed the actual operating system yet.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 2. Click the dropdown arrow in the box next to DVD and navigate to the folder where you downloaded the Windows Server 2022 ISO.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 3. Select the Windows Server 2022 ISO file, and click Mount and Retry Boot to restart your virtual machine.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 4. Once your VM restarts, the Windows installation tool will appear. Click Next and Install now.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 5. On the next screen select Windows Server 2022 Standard Evaluation (Desktop Experience) and click Next.
    * If you select an option that does not say ‘Desktop Experience’ you won’t have a GUI.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 6. Click the checkbox next to I accept the license terms and click Next.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 7. Select Custom: Install Windows only (advanced) since this is the first time you are installing Windows on this machine.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 8. Click Next and the tool will install Windows 10 on your machine.
    * During installation your virtual machine will restart several times. You will see a black screen that says ‘Press any key to boot from CD or DVD’. Just do not press any buttons until your machine has booted into Windows.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 9. Once your virtual machine has booted into Windows you will need to set a password for your Administrator account.
    * Your password can be anything but I just use something simple like ‘Password1’ if you are just using it for a lab environment.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 10. Once you are at the Windows lock screen, select Input from the top menu of your VM, and select the keyboard to see the keystroke you need to press to unlock your machine. 
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 11. Select Insert Ctrl-Alt-Delete or press the keystroke you see next to it to unlock your machine.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
+
 12. Enter the password you created for the Administrator account to log in to your Windows Server.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install/>
 
 
 <!--
