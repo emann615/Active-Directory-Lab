@@ -146,19 +146,17 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 10. Once your virtual machine has booted into Windows you will need to set a password for your Administrator account.
    * Your password can be anything but I just use something simple like **Password1** if you are just using it for a lab environment.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515746-90d207cf-51ff-4c6c-85e4-8384ce739d30.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 11. Once you are at the Windows lock screen, select **Input** from the top menu of your VM, and select the **keyboard** to see the keystroke you need to press to unlock your machine. 
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
-
 12. Select **Insert Ctrl-Alt-Delete**, or press the keystroke you see next to it to unlock your machine.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515748-aa7e4963-4dcd-414f-9d6f-7accd1c90b1e.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 13. Enter the password you created for the Administrator account to log in to your Windows Server.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515808-99425407-ef21-477f-ac70-7e5f301f2c4a.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 
 <!--
