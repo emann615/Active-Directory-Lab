@@ -117,12 +117,12 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
-6. On the next screen select **Windows Server 2022 Standard Evaluation (Desktop Experience)** and click **Next**.
+6. On the next screen select **Windows Server 2022 Standard Evaluation (Desktop Experience)**, and click **Next**.
    * If you select an option that does not say ‘Desktop Experience’ you won’t have a GUI.
 
 <img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
-7. Click the checkbox next to **I accept the license terms** and click **Next**.
+7. Click the checkbox next to **I accept the license terms**, and click **Next**.
 
 <img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
@@ -130,7 +130,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
-9. Click **Next** and the tool will install Windows 10 on your machine.
+9. Click **Next**, and the tool will install Windows 10 on your machine.
    * During installation your virtual machine will restart several times. You will see a black screen that says 'Press any key to boot from CD or DVD'. Just do not press any buttons until your machine has booted into Windows.
 
 <img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
@@ -144,7 +144,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
-12. Select **Insert Ctrl-Alt-Delete** or press the keystroke you see next to it to unlock your machine.
+12. Select **Insert Ctrl-Alt-Delete**, or press the keystroke you see next to it to unlock your machine.
 
 <img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
