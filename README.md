@@ -148,7 +148,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224515746-90d207cf-51ff-4c6c-85e4-8384ce739d30.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
-11. Once you are at the Windows lock screen, select **Input** from the top menu of your VM, and select the **keyboard** to see the keystroke you need to press to unlock your machine. 
+11. Once you are at the Windows lock screen, select **Input** from the top menu of your VM, and select the **Keyboard** to see the keystroke you need to press to unlock your machine. 
 
 12. Select **Insert Ctrl-Alt-Delete**, or press the keystroke you see next to it to unlock your machine.
 
