@@ -162,15 +162,35 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Select **Devices** from the top menu of your VM, and click **Insert Guest Additions CD Image**.
 
-<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 3. Select **File Explorer** from the bottom menu bar and click **This PC**.
-4. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
-5. Run the file named **VBoxWindowsAdditions-amd64**.
-6. Click **Next** through the next couple screens, and click **Install**.
-7. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
-8. Manually shut down the VM by clicking **Start**, clicking the power icon, and clicking **Shut down**.
-9. In the little popup that appears click **Continue**.
+
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+
+5. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
+
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+
+7. Run the file named **VBoxWindowsAdditions-amd64**.
+
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+
+9. Click **Next** through the next couple screens, and click **Install**.
+
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+
+11. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
+
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+
+13. Manually shut down the VM by clicking **Start**, clicking the power icon, and clicking **Shut down**.
+
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+
+15. In the little popup that appears click **Continue**.
+
+<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 <h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
 
