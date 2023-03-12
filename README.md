@@ -167,14 +167,14 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
    * You should see two network adapters in the window that pops up. You need to figure out which one connects to your home internet and which one will connect to your internal **VirtualBox** network.
 5. Right click the first network adapter and select **Status**.
 6. In the window that pops up, click **Details**.
-7. Check what IP address appears next to IPv4 Address.
+7. Check what IP address appears next to **IPv4 Address**.
    * If the IP address looks something like **10.0.2.15** it is probably connected to your home internet.
    * If the IP address looks something like **169.254.196.79**  it connects to the internal network.
 8. Close the **Details** window and the **Status** window.
-9. Repeat steps 5-8 for the second network adapter.
+9. Repeat **steps 5-8** for the second network adapter.
 10. Right click on the adapter connected to your home internet, and select **Rename**.
 11. Rename it to something like '**INTERNET**'.
-12. Right click on the adapter that connects to the internal network, and select Rename.
+12. Right click on the adapter that connects to the internal network, and select **Rename**.
 13. Rename it to something like '**INTERNAL**'.
 14. Right click on the internal network adapter again, and select **Properties**.
 15. Click Internet **Protocol Version 4 (TCP/IPv4)**.
@@ -197,24 +197,50 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Double click the **DC** machine to start it up again.
 2. Log in to the Administrator account.
-3. Once you are logged in, the Server Manager Dashboard will automatically load up, and you need to click Add roles and features to open the Add Roles and Features Wizard.
-4. In the window that appears click Next until you get to the page titled Select destination server
-5. You should see the server you created named DC. Select it, and click Next..
-6. On the next page titled Select server roles, click the box next to Active Directory Domain Services.
-7. In the popup that appears, click Add Features.
-8. Click Next through the next few pages, and click Install.
-9. Click Close to exit the Add Roles and Features Wizard.
-10. On the top right side of the Server Manager Dashboard you should see a flag icon with a yellow warning icon next to it. Click it.
-10. From the menu that drops down, click Promote this server to a domain controller. This will open the Active Directory Domain Services Configuration Wizard.
-11. Select Add a new forest.
-12. In the box next to Root domain name, add your domain name, and click Next.
-    * You can name the domain anything you want, but for the purposes of this lab  just use ‘mydomain.com’.
-13. Type in a password and click Next. 
-14. I suggest using ‘Password1’ again if you are only using this for the lab.
-15. Click Next through the next few pages and click Install.
-16. Once it has finished installing, you will see a popup that says ‘You are about to be signed out’. Click Close and your VM will automatically restart.
+3. Once you are logged in, the **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the Add Roles and Features Wizard.
+4. In the window that appears, click **Next** until you get to the page titled Select destination server
+5. You should see the server you created named **DC**. Select it, and click **Next**.
+6. On the next page titled Select server roles, click the box next to **Active Directory Domain Services**.
+7. In the popup that appears, click **Add Features**.
+8. Click **Next** through the next few pages, and click **Install**.
+9. Click **Close** to exit the Add Roles and Features Wizard.
+10. On the top right side of the **Server Manager Dashboard** you should see a flag icon with a yellow warning icon next to it. Click it.
+10. From the menu that drops down, click **Promote this server to a domain controller**. This will open the Active Directory Domain Services Configuration Wizard.
+11. Select **Add a new forest**.
+12. In the box next to **Root domain name**, add your domain name, and click **Next**.
+    * You can name the domain anything you want, but for the purposes of this lab  just use '**mydomain.com**'.
+13. Type in a password and click **Next**. 
+14. I suggest using '**Password1**' again if you are only using this for the lab.
+15. Click **Next** through the next few pages, and click **Install**.
+16. Once it has finished installing, you will see a popup that says '**You are about to be signed out**'. Click **Close**, and your VM will automatically restart.
 17. Once your VM has loaded back up, log in to the Administrator account again.
-    * You will notice your account name now says ‘MYDOMAIN\Administrator’.
+    * You will notice your account name now says '**MYDOMAIN\Administrator**'.
+ 
+<h3>Part 8: Create Dedicate Domain Admin Account</h3>
+
+1. Click the **start menu**, and select **Windows Administrative Tools**.
+2. From the options that drop down click **Active Directory Users and Computers**.
+3. In the window that appears, right click **mydomain.com**.
+4. Hover over **New**, and select **Organizational Unit**.
+5. In the box under Name, put it something like '**ADMINS**'. 
+6. OPTIONAL:Uncheck the box next to **Protect container from accidental deletion**, and click **OK**.
+   * This just makes it easier to delete later.
+8. Right click the Organization Unit you just created named ‘**ADMINS**’.
+9. Hover over **New**, and select **User**.
+10. Fill out the name information using your name.
+11. In the box under **User logon name**, add a user name for your admin account, and click **Next**.
+12. Create a password. Again you can use '**Password1**'.
+13. Uncheck the box next to **User must change password at next logon**, and check the box next to **Password never expires**.
+14. Click **Next**, and click **Finish**.
+15. The user you just created will now appear in the Active Directory Users and Computers window. Right click the user, and select **Properties**.
+16. In the properties window, select the **Member of tab**, and click **Add**.
+17. In the box under **Enter the object names to select** type '**domain admins**'.
+18. Click **Check Names**, and click **OK**.
+19. In the Properties window click **Apply** and **OK**.
+20. Click the **start menu** and sign out.
+21. On the login screen, click **Other user** in the bottom left corner.
+22. Log in with the new admin user account info you created in **steps 10 and 11**.
+
 
 
 
