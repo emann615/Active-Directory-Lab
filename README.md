@@ -291,6 +291,34 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
     * Next to IPv4 you should now see an icon with a green check mark indicating it is online now.
     * If you click the dropdown arrow next to IPv4 you should also see the scope you just created.
 
+<h3>Part 11: Use PowerShell Script to Create Users</h3>
+
+1. From the Server Manager Dashboard, click Configure this local server.
+2. Next to IE Enhanced Security Configuration click On.
+3. Select off under Administrators and Users. 
+4. Open Internet Explorer and download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS 
+5. Click Save as and save it to the Desktop folder.
+6. Right click the AD_PS-master.zip file you just downloaded and select Extract all.
+7. Open the extracted folder. You will see a PowerShell script file named 1_CREATE_USERS and a text file named names.
+8. Open the names file and add your name at the top of the file.
+    * This file contains about 1000 randomized users that will be added to Active Directory once you run the PowerShell script.
+9. Click the start menu and select Windows PowerShell.
+10. Right click PowerShell ISE, hover over more, and click run as administrator.
+11. Click Yes when asked “Do you want to allow this app to make changes to your device?”
+12. Click the open scripts icon from the top menu bar, navigate the 1_CREATE_USERS script and open it.
+13. Enter the following command in PowerShell:
+    * PS C:\Windows\system32> Set-ExecutionPolicy unrestricted
+14. Click Yes to All in the popup that appears.
+15. Enter the following commands in PowerShell:
+    * C:\Windows\system32> cd c:\users\a-emann\desktop\AD_PS-master 
+     * Replace a-emann with your own username.
+16. Click the play button to run the script.
+17. In the popup that appears, click Run once.
+    * To confirm that the script worked, you can go back to Active Directory Users and Computers. You should now see a USERS folder under your domain with all the users the script just created.
+    * You may need to right click your domain and select Refresh to see all the new users.
+Minimize your Domain Controller virtual machine.
+
+
 
 
 
