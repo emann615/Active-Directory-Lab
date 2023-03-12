@@ -259,6 +259,39 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 14. Click **Finish** to complete setup.
 15. In the Routing and Remote Access window you should now see a little icon with a green arrow pointing up next to **DC (local)**.
 
+<h3>Part 10: Set Up a DHCP Server On Your Domain Controller</h3>
+
+1. Click Add roles and features on the Server Manager Dashboard to open the Add Roles and Features Wizard
+2. Click Next until you reach the Select server roles page.
+3. Check the box next to DHCP Server.
+4. In the window that pops up click Add Features.
+5. Click Next through the next few pages and click Install.
+6. Close the Add Roles and Features Wizard.
+7. Select Tools from the top right side of the Server Manager Dashboard and click DHCP from the dropdown menu.
+8. In the DHCP window select your DHCP server by clicking dc.mydomain.com. 
+9. Right click IPv4 and select New Scope. 
+10. In the New Scope Wizard window that appears click Next.
+11. On the Name Scope page enter the name of the scope in the box next to Name and click Next.
+    * You can name the scope after what the IP range is (ex. 172.16.0.100-200)
+12. On the IP Address Range page enter the following information:
+    * Start IP address: 172.16.0.100
+    * End IP address: 172.16.0.200
+    * Length: 24
+    * Subnet mask: 255.255.255.0
+13. Click Next to get to the Add Exclusions and Delay page.
+    * This page allows you to add any IP addresses you don’t want to give out, but you can leave it blank for this lab.
+14. Click Next to get to the Lease Duration Page.
+    * This page allows you to set how long a computer can have an IP address before it needs to be refreshed. You can leave it at 8 days for this lab.
+15. Click Next to reach the Configure DHCP Options page, and make sure Yes, I want to configure these options now is selected.
+16. Click Next to reach the Router(Default Gateway) page.
+17. In the box under IP address enter the Domain Controllers IP address (172.16.0.1), and click Add.
+18. the next few pages and click Finish.
+19. In the DHCP window right click your server (dc.mydomain.com) and select Authorize.
+20. Right click the server again and select Refresh.
+    * Next to IPv4 you should now see an icon with a green check mark indicating it is online now.
+    * If you click the dropdown arrow next to IPv4 you should also see the scope you just created.
+
+
 
 
 
