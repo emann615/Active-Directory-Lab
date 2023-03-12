@@ -99,75 +99,78 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 1. Double click the **DC** virtual machine, and it will start in a new window that appears.
    * Once it has loaded a box will appear that says your virtual machine failed to boot. This is because you have not installed the actual operating system yet.
 
-<img src="https://user-images.githubusercontent.com/117882385/224505813-ebc2b305-c5c8-475a-bb90-082940bf36c5.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224505813-ebc2b305-c5c8-475a-bb90-082940bf36c5.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 2. Click the dropdown arrow in the box next to **DVD** and navigate to the folder where you downloaded the **Windows Server 2022 ISO**.
 
-<img src="https://user-images.githubusercontent.com/117882385/224505534-f4f08ad3-c33e-47a2-b615-8ec8e0cb0891.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224505534-f4f08ad3-c33e-47a2-b615-8ec8e0cb0891.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-<img src="https://user-images.githubusercontent.com/117882385/224506425-5b203898-0eb8-4336-9573-b4649dc786c0.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224506425-5b203898-0eb8-4336-9573-b4649dc786c0.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 3. Select the **Windows Server 2022 ISO** file, and click **Open**.
 
-<img src="https://user-images.githubusercontent.com/117882385/224506302-b6dd876a-95bd-49f8-9cf3-f22734d63eb6.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224506302-b6dd876a-95bd-49f8-9cf3-f22734d63eb6.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 4. Click **Mount and Retry Boot** to restart your virtual machine.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515231-0783677c-2897-4623-b6a1-4e0d813ed48b.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515231-0783677c-2897-4623-b6a1-4e0d813ed48b.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 5. Once your VM restarts, the Windows installation tool will appear. Click **Next** and **Install** now.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515262-fa5c0d30-c3a5-4cd4-8882-5fde0ec7bb06.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515262-fa5c0d30-c3a5-4cd4-8882-5fde0ec7bb06.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-<img src="https://user-images.githubusercontent.com/117882385/224515265-8b60f1bc-e646-4138-8137-2e14debbdcd3.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515265-8b60f1bc-e646-4138-8137-2e14debbdcd3.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 6. On the next screen select **Windows Server 2022 Standard Evaluation (Desktop Experience)**, and click **Next**.
    * If you select an option that does not say ‘Desktop Experience’ you won’t have a GUI.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515309-d6d192f9-7875-4c7a-8b89-151ef646b95c.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515309-d6d192f9-7875-4c7a-8b89-151ef646b95c.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 7. Click the checkbox next to **I accept the license terms**, and click **Next**.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515313-639c5eaf-3246-4daa-8f47-bb2d205c84d3.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515313-639c5eaf-3246-4daa-8f47-bb2d205c84d3.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 8. Select **Custom: Install Windows only (advanced)** since this is the first time you are installing Windows on this machine.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515516-dd14c013-cc96-4101-bd0d-9233e0c9008a.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515516-dd14c013-cc96-4101-bd0d-9233e0c9008a.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 9. Click **Next**, and the tool will install Windows 10 on your machine.
    * During installation your virtual machine will restart several times. You will see a black screen that says 'Press any key to boot from CD or DVD'. Just do not press any buttons until your machine has booted into Windows.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515654-5fe9ae14-75f8-4ddb-8956-9fb73feb4e2b.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515654-5fe9ae14-75f8-4ddb-8956-9fb73feb4e2b.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-<img src="https://user-images.githubusercontent.com/117882385/224515660-034307be-b95b-484c-903d-96a88050ce16.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515660-034307be-b95b-484c-903d-96a88050ce16.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-<img src="https://user-images.githubusercontent.com/117882385/224515688-e98f76a8-2d81-44ad-9afc-a963f0668c3c.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515688-e98f76a8-2d81-44ad-9afc-a963f0668c3c.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 10. Once your virtual machine has booted into Windows you will need to set a password for your Administrator account.
     * Your password can be anything but I just use something simple like '**Password1**' if you are just using it for a lab environment.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515746-90d207cf-51ff-4c6c-85e4-8384ce739d30.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515746-90d207cf-51ff-4c6c-85e4-8384ce739d30.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 11. Once you are at the Windows lock screen, select **Input** from the top menu of your VM, and select the **Keyboard** to see the keystroke you need to press to unlock your machine. 
 
 12. Select **Insert Ctrl-Alt-Delete**, or press the keystroke you see next to it to unlock your machine.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515748-aa7e4963-4dcd-414f-9d6f-7accd1c90b1e.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515748-aa7e4963-4dcd-414f-9d6f-7accd1c90b1e.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 13. Enter the password you created for the Administrator account to log in to your Windows Server.
 
-<img src="https://user-images.githubusercontent.com/117882385/224515808-99425407-ef21-477f-ac70-7e5f301f2c4a.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+<img src="https://user-images.githubusercontent.com/117882385/224515808-99425407-ef21-477f-ac70-7e5f301f2c4a.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 <h3>Part 5: Install VirtualBox Guest Additions</h3>
 
 1. Select **Devices** from the top menu of your VM, and click **Insert Guest Additions CD Image**.
-2. Select **File Explorer** from the bottom menu bar and click **This PC**.
-3. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
-4. Run the file named **VBoxWindowsAdditions-amd64**.
-5. Click **Next** through the next couple screens, and click **Install**.
-6. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
-7. Manually shut down the VM by clicking **Start**, clicking the power icon, and clicking **Shut down**.
-8. In the little popup that appears click **Continue**.
+
+<img src="#" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+
+3. Select **File Explorer** from the bottom menu bar and click **This PC**.
+4. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
+5. Run the file named **VBoxWindowsAdditions-amd64**.
+6. Click **Next** through the next couple screens, and click **Install**.
+7. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
+8. Manually shut down the VM by clicking **Start**, clicking the power icon, and clicking **Shut down**.
+9. In the little popup that appears click **Continue**.
 
 <h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
 
