@@ -135,7 +135,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <img src="https://user-images.githubusercontent.com/117882385/224515516-dd14c013-cc96-4101-bd0d-9233e0c9008a.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
 9. Click **Next**, and the tool will install Windows 10 on your machine.
-   * During installation your virtual machine will restart several times. You will see a black screen that says 'Press any key to boot from CD or DVD'. Just do not press any buttons until your machine has booted into Windows.
+   * During installation your virtual machine will restart several times. You will see a black screen that says '**Press any key to boot from CD or DVD**'. Just do not press any buttons until your machine has booted into Windows.
 
 <img src="https://user-images.githubusercontent.com/117882385/224515654-5fe9ae14-75f8-4ddb-8956-9fb73feb4e2b.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
