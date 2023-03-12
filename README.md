@@ -31,7 +31,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224393765-d360956a-1bce-4199-830a-830e4551c8f8.jpg" height="80%" width="80%" alt="VirtualBox Extension Pack Download"/>
 
-4. Open the files you downloaded to install VirtualBox and the VirtualBox Extension Pack.
+4. Open the files you downloaded to install **VirtualBox** and the **VirtualBox Extension Pack**.
 
 <h3>Part 2: Download Windows 10 and Windows Server 2022 ISO Files</h3>
 
@@ -53,7 +53,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <h3>Part 3: Create Domain Controller Virtual Machine</h3>
 
-1. Open VirtualBox.
+1. Open **VirtualBox**.
 2. Click **New** from the top menu bar to set up a new machine.
 
 <img src="https://user-images.githubusercontent.com/117882385/224441280-8631c621-ded8-4810-ba97-c778ac5b2bbb.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
@@ -83,7 +83,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <img src="https://user-images.githubusercontent.com/117882385/224433773-2a570a20-36cb-4f7b-aa43-a10cf459f4ee.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
 9. Select **Network** from the left menu.
-   * The first network adapter is already enabled and set to NAT. It connects to our home internet. You need to enable a second network adapter that will connect to our internal VirtualBox network.
+   * The first network adapter is already enabled and set to **NAT**. It connects to our home internet. You need to enable a second network adapter that will connect to our internal VirtualBox network.
 
 <img src="https://user-images.githubusercontent.com/117882385/224433868-7205d48f-e381-44ee-a966-d8b14c2f7d90.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
@@ -158,6 +158,17 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224515808-99425407-ef21-477f-ac70-7e5f301f2c4a.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
+<h3>Part 5: Install VirtualBox Guest Additions</h3>
+
+1. Select **Devices** from the top menu of your VM, and click **Insert Guest Additions CD Image**.
+2. Select **File Explorer** from the bottom menu bar and click **This PC**.
+3. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
+4. Run the file named **VBoxWindowsAdditions-amd64**.
+5. Click **Next** through the next couple screens, and click **Install**.
+6. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
+7. Manually shut down the VM by selecting the **Start**, clicking the power icon, and clicking **Shut down**.
+8. In the little popup that appears click **Continue**.
+
 <h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
 
 1. Double click the **DC** machine to start it up again.
@@ -178,7 +189,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 13. Rename it to something like '**INTERNAL**'.
 14. Right click on the internal network adapter again, and select **Properties**.
 15. Click Internet **Protocol Version 4 (TCP/IPv4)**.
-17. Click the circle next to Use the following IP address and add the following information.
+17. Click the circle next to **Use the following IP address**, and add the following information.
     * **IP address:** 172.16.0.1
     * **Subnet mask:** 255.255.255.0
     * **Default gateway:** (leave blank)
@@ -187,7 +198,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
        * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use your IP address (172.16.0.1) as the DNS instead.
 18. Click **OK** to save your settings.
 19. Click **OK** again to close the Properties window.
-20. Right click the start menu and select **System**.
+20. Right click **Start**, and select **System**.
 21. Click **Rename this PC**.
 22. Rename it something like '**DC**' for Domain Controller.
 23. Click **Next** and **Restart now**.
@@ -218,7 +229,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
  
 <h3>Part 8: Create Dedicate Domain Admin Account</h3>
 
-1. Click the **start menu**, and select **Windows Administrative Tools**.
+1. Click **Start**, and select **Windows Administrative Tools**.
 2. From the options that drop down click **Active Directory Users and Computers**.
 3. In the window that appears, right click **mydomain.com**.
 4. Hover over **New**, and select **Organizational Unit**.
@@ -237,7 +248,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 17. In the box under **Enter the object names to select** type '**domain admins**'.
 18. Click **Check Names**, and click **OK**.
 19. In the Properties window click **Apply** and **OK**.
-20. Click the **start menu** and sign out.
+20. Click **Start** and sign out.
 21. On the login screen, click **Other user** in the bottom left corner.
 22. Log in with the new admin user account info you created in **steps 10 and 11**.
 
@@ -302,7 +313,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 7. Open the extracted folder. You will see a PowerShell script file named **1_CREATE_USERS**, and a text file named **names**.
 8. Open the **names** file and add your name at the top of the file.
     * This file contains about 1000 randomized users that will be added to Active Directory once you run the PowerShell script.
-9. Click the **start menu**, and select **Windows PowerShell**.
+9. Click **Start**, and select **Windows PowerShell**.
 10. Right click **PowerShell ISE**, hover over **More**, and click **Run as administrator**.
 11. Click **Yes** when asked '**Do you want to allow this app to make changes to your device?**'.
 12. Click the open scripts icon from the top menu bar, navigate the **1_CREATE_USERS** script, and open it.
