@@ -166,7 +166,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 4. Run the file named **VBoxWindowsAdditions-amd64**.
 5. Click **Next** through the next couple screens, and click **Install**.
 6. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
-7. Manually shut down the VM by selecting the **Start**, clicking the power icon, and clicking **Shut down**.
+7. Manually shut down the VM by selecting **Start**, clicking the power icon, and clicking **Shut down**.
 8. In the little popup that appears click **Continue**.
 
 <h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
