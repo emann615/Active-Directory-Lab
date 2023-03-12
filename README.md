@@ -241,6 +241,25 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 21. On the login screen, click **Other user** in the bottom left corner.
 22. Log in with the new admin user account info you created in **steps 10 and 11**.
 
+<h3>Part 9: Install RAS / NAT</h3>
+
+1. Click Add roles and features on the Server Manager Dashboard to open the Add Roles and Features Wizard.
+2. Click Next until you reach the Select server roles page.
+3. Check the box next to Remote Access.
+4. Click Next until you reach the Select role services page.
+5. Check the box next to Routing.
+6. In the window that pops up click Add Features.
+7. Click Next through the next few pages and click Install.
+8. Close the Add Roles and Features Wizard.
+9. Select Tools from the top right side of the Server Manager Dashboard and click Routing and Remote Access from the dropdown menu. 
+10. In the Routing and Remote Access window, right click DC (local), and select Configure and Enable Routing and Remote Access to open the Routing and Remote Access Setup Wizard.
+11. Select Network address translation (NAT) and click Next.
+12. Make sure Use this public interface to connect to the internet is selected.
+13. Under Network interfaces, select the one you named ‘_INTERNET_’ and click Next.
+14. Click Finish to complete setup.
+15. In the Routing and Remote Access window you should now see a little icon with a green arrow pointing up next to DC (local).
+
+
 
 
 
