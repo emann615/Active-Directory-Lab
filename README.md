@@ -162,19 +162,19 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Select **Devices** from the top menu of your VM, and click **Insert Guest Additions CD Image**.
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224579642-ab19a399-921f-4dfe-bf35-0b424f67b3d3.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-3. Select **File Explorer** from the bottom menu bar and click **This PC**.
+3. Open **File Explorer** from the bottom menu bar and click **This PC**.
 
 <img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 5. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224579682-ef5114cd-2013-459b-a70f-ab477128228b.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 7. Run the file named **VBoxWindowsAdditions-amd64**.
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224579676-021fff4e-71c5-411d-8f67-796d8b7534c3.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 9. Click **Next** through the next couple screens, and click **Install**.
 
