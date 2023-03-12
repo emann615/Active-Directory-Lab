@@ -185,36 +185,36 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
        * You do not need to add a default gateway because the domain controller itself will act as the default gateway.
     * **Preferred DNS server:** 127.0.0.1
        * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use your IP address (172.16.0.1) as the DNS instead.
-18. Click OK to save your settings.
-19. Click OK again to close the Properties window.
-20. Next, right click the start menu and select System.
-21. Click Rename this PC.
-22. Rename it something like ‘DC’ for Domain Controller.
-23. Click Next and Restart now.
-24. In the little popup that appears click Continue.
+18. Click **OK** to save your settings.
+19. Click **OK** again to close the Properties window.
+20. Right click the start menu and select **System**.
+21. Click **Rename this PC**.
+22. Rename it something like '**DC**' for Domain Controller.
+23. Click **Next** and **Restart now**.
+24. In the little popup that appears click **Continue**.
 
 <h3>Part 7: Install Active Directory Domain Services and Create Your Domain</h3>
 
-Double click the DC machine to start it up again.
-Log in to the Administrator account.
-Once you are logged in, the Server Manager Dashboard will automatically load up, and you need to click Add roles and features to open the Add Roles and Features Wizard.
-In the window that appears click Next until you get to the page titled Select destination server
-You should see the server you created named ‘DC’. Select it, and click Next..
-On the next page titled Select server roles, click the box next to Active Directory Domain Services.
-In the popup that appears, click Add Features.
-Click Next through the next few pages, and click Install.
-Click Close to exit the Add Roles and Features Wizard.
-On the top right side of the Server Manager Dashboard you should see a flag icon with a yellow warning icon next to it. Click it.
- From the menu that drops down, click Promote this server to a domain controller. This will open the Active Directory Domain Services Configuration Wizard.
-Select Add a new forest.
-In the box next to Root domain name, add your domain name, and click Next.
-You can name the domain anything you want, but for the purposes of this lab  just use ‘mydomain.com’.
-Type in a password and click Next. 
-I suggest using ‘Password1’ again if you are only using this for the lab.
-Click Next through the next few pages and click Install.
-Once it has finished installing, you will see a popup that says ‘You are about to be signed out’. Click Close and your VM will automatically restart.
-Once your VM has loaded back up, log in to the Administrator account again.
-You will notice your account name now says ‘MYDOMAIN\Administrator’.
+1. Double click the **DC** machine to start it up again.
+2. Log in to the Administrator account.
+3. Once you are logged in, the Server Manager Dashboard will automatically load up, and you need to click Add roles and features to open the Add Roles and Features Wizard.
+4. In the window that appears click Next until you get to the page titled Select destination server
+5. You should see the server you created named DC. Select it, and click Next..
+6. On the next page titled Select server roles, click the box next to Active Directory Domain Services.
+7. In the popup that appears, click Add Features.
+8. Click Next through the next few pages, and click Install.
+9. Click Close to exit the Add Roles and Features Wizard.
+10. On the top right side of the Server Manager Dashboard you should see a flag icon with a yellow warning icon next to it. Click it.
+10. From the menu that drops down, click Promote this server to a domain controller. This will open the Active Directory Domain Services Configuration Wizard.
+11. Select Add a new forest.
+12. In the box next to Root domain name, add your domain name, and click Next.
+    * You can name the domain anything you want, but for the purposes of this lab  just use ‘mydomain.com’.
+13. Type in a password and click Next. 
+14. I suggest using ‘Password1’ again if you are only using this for the lab.
+15. Click Next through the next few pages and click Install.
+16. Once it has finished installing, you will see a popup that says ‘You are about to be signed out’. Click Close and your VM will automatically restart.
+17. Once your VM has loaded back up, log in to the Administrator account again.
+    * You will notice your account name now says ‘MYDOMAIN\Administrator’.
 
 
 
