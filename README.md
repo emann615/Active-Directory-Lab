@@ -115,7 +115,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224515231-0783677c-2897-4623-b6a1-4e0d813ed48b.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-5. Once your VM restarts, the Windows installation tool will appear. Click **Next** and **Install** now.
+5. Once your VM restarts, the Microsoft Server Operating System Setup tool will appear. Click **Next** and **Install** now.
 
 <img src="https://user-images.githubusercontent.com/117882385/224515262-fa5c0d30-c3a5-4cd4-8882-5fde0ec7bb06.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
