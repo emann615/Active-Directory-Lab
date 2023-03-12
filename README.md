@@ -58,7 +58,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224441280-8631c621-ded8-4810-ba97-c778ac5b2bbb.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
-3. Name the machine **DC** for Domain Controller.
+3. Name the machine '**DC**' for Domain Controller.
 4. From the dropdown next to **Version**, select **Other Windows (64 bit)**, and click **Next**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224441366-df922c98-ad0d-4d63-a20a-5287583c4c86.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
@@ -144,7 +144,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <img src="https://user-images.githubusercontent.com/117882385/224515688-e98f76a8-2d81-44ad-9afc-a963f0668c3c.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 10. Once your virtual machine has booted into Windows you will need to set a password for your Administrator account.
-    * Your password can be anything but I just use something simple like **Password1** if you are just using it for a lab environment.
+    * Your password can be anything but I just use something simple like '**Password1**' if you are just using it for a lab environment.
 
 <img src="https://user-images.githubusercontent.com/117882385/224515746-90d207cf-51ff-4c6c-85e4-8384ce739d30.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
@@ -160,30 +160,30 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
 
-1. Double click the DC machine to start it up again.
+1. Double click the **DC** machine to start it up again.
 2. Log in to the Administrator account.
-3. Click the Network icon on the right side of the bottom menu bar and click Network to open the network setting.
-4. Click Change adapter options.
-   * You should see two network adapters in the window that pops up. You need to figure out which one connects to your home internet and which one will connect to your internal VirtualBox network.
-5. Right click the first network adapter and select Status.
-6. In the window that pops up, click Details.
+3. Click the Network icon on the right side of the bottom menu bar and click **Network** to open the network setting.
+4. Click **Change adapter options**.
+   * You should see two network adapters in the window that pops up. You need to figure out which one connects to your home internet and which one will connect to your internal **VirtualBox** network.
+5. Right click the first network adapter and select **Status**.
+6. In the window that pops up, click **Details**.
 7. Check what IP address appears next to IPv4 Address.
-   * If the IP address looks something like 10.0.2.15 it is probably connected to your home internet.
-   * If the IP address looks something like 169.254.196.79  it connects to the internal network.
-8. Close the Details window and the Status window.
+   * If the IP address looks something like **10.0.2.15** it is probably connected to your home internet.
+   * If the IP address looks something like **169.254.196.79**  it connects to the internal network.
+8. Close the **Details** window and the **Status** window.
 9. Repeat steps 5-8 for the second network adapter.
-10. Right click on the adapter connected to your home internet, and select Rename.
-11. Rename it to something like ‘_INTERNET_’.
+10. Right click on the adapter connected to your home internet, and select **Rename**.
+11. Rename it to something like '**INTERNET**'.
 12. Right click on the adapter that connects to the internal network, and select Rename.
-13. Rename it to something like ‘X_Internal_X’.
-14. Right click on the internal network adapter again, and select Properties.
-15. Click Internet Protocol Version 4 (TCP/IPv4).
+13. Rename it to something like '**INTERNAL**'.
+14. Right click on the internal network adapter again, and select **Properties**.
+15. Click Internet **Protocol Version 4 (TCP/IPv4)**.
 17. Click the circle next to Use the following IP address and add the following information.
-    * IP address: 172.16.0.1
-    * Subnet mask: 255.255.255.0
-    * Default gateway: <leave blank>
+    * **IP address:** 172.16.0.1
+    * **Subnet mask:** 255.255.255.0
+    * **Default gateway:** (leave blank)
        * You do not need to add a default gateway because the domain controller itself will act as the default gateway.
-    * Preferred DNS server: 127.0.0.1
+    * **Preferred DNS server:** 127.0.0.1
        * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use your IP address (172.16.0.1) as the DNS instead.
 18. Click OK to save your settings.
 19. Click OK again to close the Properties window.
