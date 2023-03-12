@@ -261,61 +261,61 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <h3>Part 10: Set Up a DHCP Server On Your Domain Controller</h3>
 
-1. Click Add roles and features on the Server Manager Dashboard to open the Add Roles and Features Wizard
-2. Click Next until you reach the Select server roles page.
-3. Check the box next to DHCP Server.
-4. In the window that pops up click Add Features.
-5. Click Next through the next few pages and click Install.
+1. Click **Add roles and features** on the Server Manager Dashboard to open the Add Roles and Features Wizard
+2. Click **Next** until you reach the Select server roles page.
+3. Check the box next to **DHCP Server**.
+4. In the window that pops up click **Add Features**.
+5. Click **Next** through the next few pages and click **Install**.
 6. Close the Add Roles and Features Wizard.
-7. Select Tools from the top right side of the Server Manager Dashboard and click DHCP from the dropdown menu.
-8. In the DHCP window select your DHCP server by clicking dc.mydomain.com. 
-9. Right click IPv4 and select New Scope. 
-10. In the New Scope Wizard window that appears click Next.
-11. On the Name Scope page enter the name of the scope in the box next to Name and click Next.
-    * You can name the scope after what the IP range is (ex. 172.16.0.100-200)
+7. Select **Tools** from the top right side of the Server Manager Dashboard and click **DHCP** from the dropdown menu.
+8. In the DHCP window select your DHCP server by clicking **dc.mydomain.com**. 
+9. Right click **IPv4** and select **New Scope**. 
+10. In the New Scope Wizard window that appears click **Next**.
+11. On the Name Scope page enter the name of the scope in the box next to **Name**, and click **Next**.
+    * You can name the scope after what the IP range is (**172.16.0.100-200**)
 12. On the IP Address Range page enter the following information:
-    * Start IP address: 172.16.0.100
-    * End IP address: 172.16.0.200
-    * Length: 24
-    * Subnet mask: 255.255.255.0
-13. Click Next to get to the Add Exclusions and Delay page.
+    * **Start IP address:** 172.16.0.100
+    * **End IP address:** 172.16.0.200
+    * **Length:** 24
+    * **Subnet mask:** 255.255.255.0
+13. Click **Next** to get to the Add Exclusions and Delay page.
     * This page allows you to add any IP addresses you don’t want to give out, but you can leave it blank for this lab.
-14. Click Next to get to the Lease Duration Page.
+14. Click **Next** to get to the Lease Duration Page.
     * This page allows you to set how long a computer can have an IP address before it needs to be refreshed. You can leave it at 8 days for this lab.
-15. Click Next to reach the Configure DHCP Options page, and make sure Yes, I want to configure these options now is selected.
-16. Click Next to reach the Router(Default Gateway) page.
-17. In the box under IP address enter the Domain Controllers IP address (172.16.0.1), and click Add.
-18. the next few pages and click Finish.
-19. In the DHCP window right click your server (dc.mydomain.com) and select Authorize.
-20. Right click the server again and select Refresh.
-    * Next to IPv4 you should now see an icon with a green check mark indicating it is online now.
-    * If you click the dropdown arrow next to IPv4 you should also see the scope you just created.
+15. Click **Next** to reach the Configure DHCP Options page, and make sure **Yes, I want to configure these options now** is selected.
+16. Click **Next** to reach the Router(Default Gateway) page.
+17. In the box under IP address enter the Domain Controllers IP address (**172.16.0.1**), and click **Add**.
+18. Click **Next** through the next few pages, and click **Finish**.
+19. In the DHCP window right click your server (**dc.mydomain.com**) and select **Authorize**.
+20. Right click the server again, and select **Refresh**.
+    * Next to **IPv4** you should now see an icon with a green check mark indicating it is online now.
+    * If you click the dropdown arrow next to **IPv4** you should also see the scope you just created.
 
 <h3>Part 11: Use PowerShell Script to Create Users</h3>
 
-1. From the Server Manager Dashboard, click Configure this local server.
-2. Next to IE Enhanced Security Configuration click On.
-3. Select off under Administrators and Users. 
-4. Open Internet Explorer and download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS 
-5. Click Save as and save it to the Desktop folder.
-6. Right click the AD_PS-master.zip file you just downloaded and select Extract all.
-7. Open the extracted folder. You will see a PowerShell script file named 1_CREATE_USERS and a text file named names.
-8. Open the names file and add your name at the top of the file.
+1. From the Server Manager Dashboard, click **Configure this local server**.
+2. Next to **IE Enhanced Security Configuration**, click **On**.
+3. Select **Off** under Administrators and Users. 
+4. Open **Internet Explorer**, and download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS 
+5. Click **Save as**, and save it to the **Desktop** folder.
+6. Right click the **AD_PS-master.zip** file you just downloaded, and select **Extract all**.
+7. Open the extracted folder. You will see a PowerShell script file named **1_CREATE_USERS**, and a text file named **names**.
+8. Open the **names** file and add your name at the top of the file.
     * This file contains about 1000 randomized users that will be added to Active Directory once you run the PowerShell script.
-9. Click the start menu and select Windows PowerShell.
-10. Right click PowerShell ISE, hover over more, and click run as administrator.
-11. Click Yes when asked “Do you want to allow this app to make changes to your device?”
-12. Click the open scripts icon from the top menu bar, navigate the 1_CREATE_USERS script and open it.
+9. Click the **start menu**, and select **Windows PowerShell**.
+10. Right click **PowerShell ISE**, hover over **More**, and click **Run as administrator**.
+11. Click **Yes** when asked '**Do you want to allow this app to make changes to your device?**'.
+12. Click the open scripts icon from the top menu bar, navigate the **1_CREATE_USERS** script, and open it.
 13. Enter the following command in PowerShell:
-    * PS C:\Windows\system32> Set-ExecutionPolicy unrestricted
-14. Click Yes to All in the popup that appears.
+    * PS C:\Windows\system32> **Set-ExecutionPolicy unrestricted**
+14. Click **Yes to All** in the popup that appears.
 15. Enter the following commands in PowerShell:
-    * C:\Windows\system32> cd c:\users\a-emann\desktop\AD_PS-master 
+    * C:\Windows\system32> **cd c:\users\a-emann\desktop\AD_PS-master** 
      * Replace a-emann with your own username.
 16. Click the play button to run the script.
-17. In the popup that appears, click Run once.
-    * To confirm that the script worked, you can go back to Active Directory Users and Computers. You should now see a USERS folder under your domain with all the users the script just created.
-    * You may need to right click your domain and select Refresh to see all the new users.
+17. In the popup that appears, click **Run once**.
+    * To confirm that the script worked, you can go back to Active Directory Users and Computers. You should now see a **USERS** folder under your domain with all the users the script just created.
+    * You may need to right click your domain and select **Refresh** to see all the new users.
 18. Minimize your Domain Controller virtual machine.
 
 
