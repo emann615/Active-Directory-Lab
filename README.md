@@ -223,9 +223,9 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 3. In the window that appears, right click **mydomain.com**.
 4. Hover over **New**, and select **Organizational Unit**.
 5. In the box under Name, put it something like '**ADMINS**'. 
-6. OPTIONAL:Uncheck the box next to **Protect container from accidental deletion**, and click **OK**.
+6. [OPTIONAL] Uncheck the box next to **Protect container from accidental deletion**, and click **OK**.
    * This just makes it easier to delete later.
-8. Right click the Organization Unit you just created named ‘**ADMINS**’.
+8. Right click the Organization Unit you just created named **ADMINS**.
 9. Hover over **New**, and select **User**.
 10. Fill out the name information using your name.
 11. In the box under **User logon name**, add a user name for your admin account, and click **Next**.
