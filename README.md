@@ -318,6 +318,24 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
     * You may need to right click your domain and select **Refresh** to see all the new users.
 18. Minimize your Domain Controller virtual machine.
 
+<h3>Part 12: Create Client Virtual Machine</h3>
+
+1. Go back to **VirtualBox**.
+2. Click **New** from the top menu bar to set up a new machine.
+3. Name the machine '**CLIENT1**'.
+4. From the dropdown next to **Version**, select **Windows 10 (64 bit)**, and click **Next**.
+5. On the next screen set the amount of **RAM** and the number of **CPUs** you want to use.
+   * If you have at least 8GB of RAM on your host computer, setting the ram to 2048MB works pretty well.
+   * I suggest setting the Processors to at least 2 CPUs.
+6. You can click **Next** through the rest of the screens, and click **Finish** on the last screen.
+7. Select **Settings** from the top menu to edit the settings of the virtual machine you just created.
+8. Go to the **Advanced** tab and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to **Bidirectional**.
+    * Shared clipboard allows you to copy/paste between your host computer and the virtual machine.
+    * Drag ‘n Drop allows you to drag/drop files between your host computer and the virtual machine.
+9. Select **Network** from the left menu and make sure **Adapter 1** is selected.
+10. From the dropdown next to **Attached to**, select **Internal Network**.
+11. Click **OK** in the bottom right corner to close the settings.
+
 
 
 
