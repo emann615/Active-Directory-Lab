@@ -316,7 +316,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 17. In the popup that appears, click Run once.
     * To confirm that the script worked, you can go back to Active Directory Users and Computers. You should now see a USERS folder under your domain with all the users the script just created.
     * You may need to right click your domain and select Refresh to see all the new users.
-Minimize your Domain Controller virtual machine.
+18. Minimize your Domain Controller virtual machine.
 
 
 
