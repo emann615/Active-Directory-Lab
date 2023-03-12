@@ -23,7 +23,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <h3>Part 1: Install VirtualBox</h3>
 
 1. Download **VirtualBox** by going to the following link: https://www.virtualbox.org/wiki/Downloads
-   * Download the version for whatever OS you are using.
+   - Download the version for whatever OS you are using.
 
 <img src="https://user-images.githubusercontent.com/117882385/224390278-d7e4222c-6e2c-4eb8-8d43-ec41a3b8ec11.jpg" height="80%" width="80%" alt="VirtualBox Download"/>
 
@@ -144,7 +144,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <img src="https://user-images.githubusercontent.com/117882385/224515688-e98f76a8-2d81-44ad-9afc-a963f0668c3c.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
 10. Once your virtual machine has booted into Windows you will need to set a password for your Administrator account.
-   * Your password can be anything but I just use something simple like **Password1** if you are just using it for a lab environment.
+    * Your password can be anything but I just use something simple like **Password1** if you are just using it for a lab environment.
 
 <img src="https://user-images.githubusercontent.com/117882385/224515746-90d207cf-51ff-4c6c-85e4-8384ce739d30.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
 
@@ -157,6 +157,65 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 13. Enter the password you created for the Administrator account to log in to your Windows Server.
 
 <img src="https://user-images.githubusercontent.com/117882385/224515808-99425407-ef21-477f-ac70-7e5f301f2c4a.jpg" height="80%" width="80%" alt="Windows Server 2022 Install"/>
+
+<h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
+
+1. Double click the DC machine to start it up again.
+2. Log in to the Administrator account.
+3. Click the Network icon on the right side of the bottom menu bar and click Network to open the network setting.
+4. Click Change adapter options.
+   * You should see two network adapters in the window that pops up. You need to figure out which one connects to your home internet and which one will connect to your internal VirtualBox network.
+5. Right click the first network adapter and select Status.
+6. In the window that pops up, click Details.
+7. Check what IP address appears next to IPv4 Address.
+   * If the IP address looks something like 10.0.2.15 it is probably connected to your home internet.
+   * If the IP address looks something like 169.254.196.79  it connects to the internal network.
+8. Close the Details window and the Status window.
+9. Repeat steps 5-8 for the second network adapter.
+10. Right click on the adapter connected to your home internet, and select Rename.
+11. Rename it to something like ‘_INTERNET_’.
+12. Right click on the adapter that connects to the internal network, and select Rename.
+13. Rename it to something like ‘X_Internal_X’.
+14. Right click on the internal network adapter again, and select Properties.
+15. Click Internet Protocol Version 4 (TCP/IPv4).
+17. Click the circle next to Use the following IP address and add the following information.
+    * IP address: 172.16.0.1
+    * Subnet mask: 255.255.255.0
+    * Default gateway: <leave blank>
+       * You do not need to add a default gateway because the domain controller itself will act as the default gateway.
+    * Preferred DNS server: 127.0.0.1
+       * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use your IP address (172.16.0.1) as the DNS instead.
+18. Click OK to save your settings.
+19. Click OK again to close the Properties window.
+20. Next, right click the start menu and select System.
+21. Click Rename this PC.
+22. Rename it something like ‘DC’ for Domain Controller.
+23. Click Next and Restart now.
+24. In the little popup that appears click Continue.
+
+<h3>Part 7: Install Active Directory Domain Services and Create Your Domain</h3>
+
+Double click the DC machine to start it up again.
+Log in to the Administrator account.
+Once you are logged in, the Server Manager Dashboard will automatically load up, and you need to click Add roles and features to open the Add Roles and Features Wizard.
+In the window that appears click Next until you get to the page titled Select destination server
+You should see the server you created named ‘DC’. Select it, and click Next..
+On the next page titled Select server roles, click the box next to Active Directory Domain Services.
+In the popup that appears, click Add Features.
+Click Next through the next few pages, and click Install.
+Click Close to exit the Add Roles and Features Wizard.
+On the top right side of the Server Manager Dashboard you should see a flag icon with a yellow warning icon next to it. Click it.
+ From the menu that drops down, click Promote this server to a domain controller. This will open the Active Directory Domain Services Configuration Wizard.
+Select Add a new forest.
+In the box next to Root domain name, add your domain name, and click Next.
+You can name the domain anything you want, but for the purposes of this lab  just use ‘mydomain.com’.
+Type in a password and click Next. 
+I suggest using ‘Password1’ again if you are only using this for the lab.
+Click Next through the next few pages and click Install.
+Once it has finished installing, you will see a popup that says ‘You are about to be signed out’. Click Close and your VM will automatically restart.
+Once your VM has loaded back up, log in to the Administrator account again.
+You will notice your account name now says ‘MYDOMAIN\Administrator’.
+
 
 
 <!--
