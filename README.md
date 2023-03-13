@@ -267,7 +267,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224604816-0fde3450-f8a2-4024-b2a1-65e1f9c43b87.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-15. Click Internet **Protocol Version 4 (TCP/IPv4)**.
+15. Double click Internet **Protocol Version 4 (TCP/IPv4)**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224604817-b945bf6d-1ae7-4e5f-be68-c1ac075b61c7.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
@@ -299,15 +299,15 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 21. Rename it something like '**DC**' for Domain Controller, and click **Next**.
 
-<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605916-0bd96565-2025-4290-b81b-9f95c1561f60.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 
 22. Click **Restart now**.
 
-<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605918-1607b957-1434-4311-9994-238b360c53a6.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 
 23. In the little popup that appears, click **Continue**.
 
-<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605919-2f304f2c-2027-4b05-80ef-ab0b4bb3aeed.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 
 <h3>Part 7: Install Active Directory Domain Services and Create Your Domain</h3>
 
