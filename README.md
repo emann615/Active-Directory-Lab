@@ -164,33 +164,37 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224579642-ab19a399-921f-4dfe-bf35-0b424f67b3d3.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-3. Open **File Explorer** from the bottom menu bar and click **This PC**.
+2. Open **File Explorer** from the bottom menu bar and click **This PC**.
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224599787-12a3d080-b57d-49ba-a5ad-eb4cd176699d.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-5. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
+3. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224579682-ef5114cd-2013-459b-a70f-ab477128228b.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-7. Run the file named **VBoxWindowsAdditions-amd64**.
+4. Run the file named **VBoxWindowsAdditions-amd64**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224579676-021fff4e-71c5-411d-8f67-796d8b7534c3.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-9. Click **Next** through the next couple screens, and click **Install**.
+5. Click **Next** through the next couple screens, and click **Install**.
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224599923-60712666-fbb4-41d1-bca3-bb2d93def2e4.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-11. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
+<img src="https://user-images.githubusercontent.com/117882385/224599969-641bef50-b0d1-4822-b1e1-487994a99468.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224599987-0f7f89e7-8969-4412-8b9e-35c0a9e01595.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-13. Manually shut down the VM by clicking **Start**, clicking the power icon, and clicking **Shut down**.
+6. After Guest Additions has finished installing, select **I want to manually reboot later**, and click **Finish**.
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224600149-db9db64f-0c5b-4b48-af8b-9a3dd478f49b.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-15. In the little popup that appears click **Continue**.
+7. Manually shut down the VM by clicking **Start**, clicking the power icon, and clicking **Shut down**.
 
-<img src="#" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224600165-d37f4417-0652-4765-a3f9-5411c786a269.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+
+8. In the little popup that appears, click **Continue**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224600177-debb994c-799f-4bd1-b01e-2825b16a1019.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 <h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
 
