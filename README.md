@@ -47,7 +47,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 4. Open the files you downloaded to install **VirtualBox** and the **VirtualBox Extension Pack**.
 
-<h3>Part 2: Download Windows 10 and Windows Server 2022 ISO Files</h3>
+### Part 2: Download Windows 10 and Windows Server 2022 ISO Files
 
 1. Download the **media creation tool** from the following link: https://www.microsoft.com/en-us/software-download/windows10
 
@@ -65,7 +65,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224398502-2423adc9-b7a8-4e1a-ad06-e3c34503effd.jpg" height="80%" width="80%" alt="Windows Server 2022 Download"/>
 
-<h3>Part 3: Create Domain Controller Virtual Machine</h3>
+### Part 3: Create Domain Controller Virtual Machine
 
 1. Open **VirtualBox**.
 2. Click **New** from the top menu bar to set up a new machine.
@@ -109,7 +109,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224434172-88a61379-77cd-4b1e-96e8-795f8d84a963.jpg" height="80%" width="80%" alt="DC Virtual Machine Creation"/>
 
-<h3>Part 4: Install and Set Up Windows Server 2022 on the DC Virtual Machine</h3>
+### Part 4: Install and Set Up Windows Server 2022 on the DC Virtual Machine
 
 1. Double click the **DC** virtual machine, and it will start in a new window that appears.
    * Once it has loaded a box will appear that says your virtual machine failed to boot. This is because you have not installed the actual operating system yet.
@@ -173,7 +173,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224515808-99425407-ef21-477f-ac70-7e5f301f2c4a.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-<h3>Part 5: Install VirtualBox Guest Additions</h3>
+### Part 5: Install VirtualBox Guest Additions
 
 1. Select **Devices** from the top menu of your VM, and click **Insert Guest Additions CD Image**.
 
@@ -211,7 +211,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224600177-debb994c-799f-4bd1-b01e-2825b16a1019.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-<h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
+### Part 6: Set Up IP Addressing and Rename the PC
 
 1. Double click the **DC** machine to start it up again.
 
