@@ -170,11 +170,11 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 3. Under **Devices and drives**, double click **CD Drive (D:) VirtualBox Guest Additions**.
 
-<img src="https://user-images.githubusercontent.com/117882385/224579682-ef5114cd-2013-459b-a70f-ab477128228b.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224600571-f40154f4-660e-44e9-8abe-5b481f94d896.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 4. Run the file named **VBoxWindowsAdditions-amd64**.
 
-<img src="https://user-images.githubusercontent.com/117882385/224579676-021fff4e-71c5-411d-8f67-796d8b7534c3.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224600590-e00958af-4c72-41a6-9e87-aee6f0960784.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
 5. Click **Next** through the next couple screens, and click **Install**.
 
