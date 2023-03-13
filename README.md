@@ -327,25 +327,69 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 ### Part 7: Install Active Directory Domain Services, and Create Your Domain
 
 1. Once you VM has restarted, log in to the **Administrator** account.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 2. The **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the **Add Roles and Features Wizard**.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 3. Click **Next** until you get to the page titled **Select destination server**.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 4. You should see the server you created named **DC**. Select it, and click **Next**.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 5. On the next page titled **Select server roles**, click the box next to **Active Directory Domain Services**.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 6. In the popup that appears, click **Add Features**.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 7. Click **Next** through the next few pages, and click **Install**.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 8. Click **Close** to exit the **Add Roles and Features Wizard**.
+
+<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
 9. On the top right side of the **Server Manager Dashboard** you should see a flag icon with a yellow warning icon next to it. Click it.
+
+<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+
 10. From the menu that drops down, click **Promote this server to a domain controller**. This will open the **Active Directory Domain Services Configuration Wizard**.
+
+<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+
 11. Select **Add a new forest**.
 12. In the box next to **Root domain name**, add your domain name, and click **Next**.
     * You can name the domain anything you want, but for the purposes of this lab just use '**mydomain.com**'.
+
+<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+
 13. Type in a password and click **Next**. 
     * I suggest using '**Password1**' again if you are only using this for the lab.
+
+<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+
 14. Click **Next** through the next few pages, and click **Install**.
+
+<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+
 15. Once it has finished installing, you will see a popup that says '**You are about to be signed out**'. Click **Close**, and your VM will automatically restart.
+
+<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+
 16. Once your VM has loaded back up, log in to the **Administrator** account again.
     * You will notice your account name now says '**MYDOMAIN\Administrator**'.
- 
+
+<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+
 ### Part 8: Create Dedicate Domain Admin Account
 
 1. Click **Start**, and select **Windows Administrative Tools**.
