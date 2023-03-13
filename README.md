@@ -325,25 +325,24 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <h3>Part 7: Install Active Directory Domain Services and Create Your Domain</h3>
 
-1. Double click the **DC** machine to start it up again.
-2. Log in to the Administrator account.
-3. Once you are logged in, the **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the Add Roles and Features Wizard.
-4. In the window that appears, click **Next** until you get to the page titled Select destination server
-5. You should see the server you created named **DC**. Select it, and click **Next**.
-6. On the next page titled Select server roles, click the box next to **Active Directory Domain Services**.
-7. In the popup that appears, click **Add Features**.
-8. Click **Next** through the next few pages, and click **Install**.
-9. Click **Close** to exit the Add Roles and Features Wizard.
-10. On the top right side of the **Server Manager Dashboard** you should see a flag icon with a yellow warning icon next to it. Click it.
+1. Once you VM has restarted, log in to the Administrator account.
+2. The **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the Add Roles and Features Wizard.
+3. In the window that appears, click **Next** until you get to the page titled Select destination server
+4. You should see the server you created named **DC**. Select it, and click **Next**.
+5. On the next page titled Select server roles, click the box next to **Active Directory Domain Services**.
+6. In the popup that appears, click **Add Features**.
+7. Click **Next** through the next few pages, and click **Install**.
+8. Click **Close** to exit the Add Roles and Features Wizard.
+9. On the top right side of the **Server Manager Dashboard** you should see a flag icon with a yellow warning icon next to it. Click it.
 10. From the menu that drops down, click **Promote this server to a domain controller**. This will open the Active Directory Domain Services Configuration Wizard.
 11. Select **Add a new forest**.
 12. In the box next to **Root domain name**, add your domain name, and click **Next**.
     * You can name the domain anything you want, but for the purposes of this lab  just use '**mydomain.com**'.
 13. Type in a password and click **Next**. 
-14. I suggest using '**Password1**' again if you are only using this for the lab.
-15. Click **Next** through the next few pages, and click **Install**.
-16. Once it has finished installing, you will see a popup that says '**You are about to be signed out**'. Click **Close**, and your VM will automatically restart.
-17. Once your VM has loaded back up, log in to the Administrator account again.
+    * I suggest using '**Password1**' again if you are only using this for the lab.
+14. Click **Next** through the next few pages, and click **Install**.
+15. Once it has finished installing, you will see a popup that says '**You are about to be signed out**'. Click **Close**, and your VM will automatically restart.
+16. Once your VM has loaded back up, log in to the Administrator account again.
     * You will notice your account name now says '**MYDOMAIN\Administrator**'.
  
 <h3>Part 8: Create Dedicate Domain Admin Account</h3>
