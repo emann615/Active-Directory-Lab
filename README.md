@@ -200,24 +200,30 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Double click the **DC** machine to start it up again.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224601921-dc83c6c3-f572-4221-be3c-99e27f9599d3.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 2. Log in to the Administrator account.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224601940-7696049b-15ea-4ec7-99e1-d5ce28ebb8f1.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224601976-bc8881a4-d424-4235-b0d9-57bc4aa3f648.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 3. Click the Network icon on the right side of the bottom menu bar and click **Network** to open the network setting.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224601999-f4b16ffc-c96b-4c0c-9e31-e91cbe8ab364.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224602016-f0f8914e-3c01-4fbe-902e-f6f460e325d6.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 4. Click **Change adapter options**.
    * You should see two network adapters in the window that pops up. You need to figure out which one connects to your home internet and which one will connect to your internal **VirtualBox** network.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224602050-2a5beca9-9b9a-40a7-9a3b-f45cc9f13bb5.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224602069-7d41457f-7963-4a38-9b87-917e54154242.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 5. Right click the first network adapter and select **Status**.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224602111-2241d92b-04e4-440b-ae03-c4d1b1fff77c.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 6. In the window that pops up, click **Details**.
 
