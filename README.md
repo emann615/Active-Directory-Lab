@@ -227,33 +227,37 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 6. In the window that pops up, click **Details**.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224603586-4f6f5f1b-515c-4ec8-8de5-888d4b965d11.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 7. Check what IP address appears next to **IPv4 Address**.
    * If the IP address looks something like **10.0.2.15** it is probably connected to your home internet.
    * If the IP address looks something like **169.254.196.79**  it connects to the internal network.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224603590-f087a3c6-a200-4795-a2ff-c8f6471d93dd.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 8. Close the **Details** window and the **Status** window.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224603591-a15ce8c8-3991-46d4-b343-6d627688f358.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 9. Repeat **steps 5-8** for the second network adapter.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224603799-9ba45ef0-4c28-49b4-805a-895d794281a7.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224603803-49b9fd83-1c69-4e65-88f5-76ac349713c3.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224603808-f59022d4-5d12-4b4f-8f3d-6949405c7e8e.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 10. Right click on the adapter connected to your home internet, and select **Rename**.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224604032-fbc49fff-a391-47f6-9e57-23306d7884ef.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 11. Rename it to something like '**INTERNET**'.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224604028-e15874c9-4912-4a94-9f61-dc3e6747e71d.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 12. Right click on the adapter that connects to the internal network, and select **Rename**.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224604031-b01e529c-7e91-414f-96ff-1b41e00c72bb.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 13. Rename it to something like '**INTERNAL**'.
 
