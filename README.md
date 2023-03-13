@@ -115,7 +115,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224505813-ebc2b305-c5c8-475a-bb90-082940bf36c5.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-2. Click the dropdown arrow in the box next to **DVD** and navigate to the folder where you downloaded the **Windows Server 2022 ISO**.
+2. Click the dropdown arrow in the box next to **DVD**, and navigate to the folder where you downloaded the **Windows Server 2022 ISO**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224505534-f4f08ad3-c33e-47a2-b615-8ec8e0cb0891.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
@@ -129,7 +129,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224515231-0783677c-2897-4623-b6a1-4e0d813ed48b.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-5. Once your VM restarts, the Microsoft Server Operating System Setup tool will appear. Click **Next** and **Install** now.
+5. Once your VM restarts, the **Microsoft Server Operating System Setup** tool will appear. Click **Next** and **Install** now.
 
 <img src="https://user-images.githubusercontent.com/117882385/224515262-fa5c0d30-c3a5-4cd4-8882-5fde0ec7bb06.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
@@ -157,7 +157,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224515688-e98f76a8-2d81-44ad-9afc-a963f0668c3c.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
 
-10. Once your virtual machine has booted into Windows you will need to set a password for your Administrator account.
+10. Once your virtual machine has booted into Windows you will need to set a password for the Administrator account.
     * Your password can be anything but I just use something simple like '**Password1**' if you are just using it for a lab environment.
 
 <img src="https://user-images.githubusercontent.com/117882385/224515746-90d207cf-51ff-4c6c-85e4-8384ce739d30.jpg" height="80%" width="80%" alt="Windows Server 2022 Installation"/>
@@ -299,7 +299,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224605125-773fffa7-2e5a-4dd4-ba30-93d4751d88e3.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-18. Click **OK** again to close the Properties window.
+18. Click **OK** again to close the **Properties** window.
 
 <img src="https://user-images.githubusercontent.com/117882385/224605126-4dcc22d6-9b14-4041-98e2-1785c2659a86.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
@@ -323,29 +323,29 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224605919-2f304f2c-2027-4b05-80ef-ab0b4bb3aeed.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 
-<h3>Part 7: Install Active Directory Domain Services and Create Your Domain</h3>
+### Part 7: Install Active Directory Domain Services, and Create Your Domain
 
-1. Once you VM has restarted, log in to the Administrator account.
-2. The **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the Add Roles and Features Wizard.
-3. In the window that appears, click **Next** until you get to the page titled Select destination server
+1. Once you VM has restarted, log in to the **Administrator** account.
+2. The **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the **Add Roles and Features Wizard**.
+3. In the window that appears, click **Next** until you get to the page titled **Select destination server**.
 4. You should see the server you created named **DC**. Select it, and click **Next**.
-5. On the next page titled Select server roles, click the box next to **Active Directory Domain Services**.
+5. On the next page titled **Select server roles**, click the box next to **Active Directory Domain Services**.
 6. In the popup that appears, click **Add Features**.
 7. Click **Next** through the next few pages, and click **Install**.
-8. Click **Close** to exit the Add Roles and Features Wizard.
+8. Click **Close** to exit the **Add Roles and Features Wizard**.
 9. On the top right side of the **Server Manager Dashboard** you should see a flag icon with a yellow warning icon next to it. Click it.
-10. From the menu that drops down, click **Promote this server to a domain controller**. This will open the Active Directory Domain Services Configuration Wizard.
+10. From the menu that drops down, click **Promote this server to a domain controller**. This will open the **Active Directory Domain Services Configuration Wizard**.
 11. Select **Add a new forest**.
 12. In the box next to **Root domain name**, add your domain name, and click **Next**.
-    * You can name the domain anything you want, but for the purposes of this lab  just use '**mydomain.com**'.
+    * You can name the domain anything you want, but for the purposes of this lab just use '**mydomain.com**'.
 13. Type in a password and click **Next**. 
     * I suggest using '**Password1**' again if you are only using this for the lab.
 14. Click **Next** through the next few pages, and click **Install**.
 15. Once it has finished installing, you will see a popup that says '**You are about to be signed out**'. Click **Close**, and your VM will automatically restart.
-16. Once your VM has loaded back up, log in to the Administrator account again.
+16. Once your VM has loaded back up, log in to the **Administrator** account again.
     * You will notice your account name now says '**MYDOMAIN\Administrator**'.
  
-<h3>Part 8: Create Dedicate Domain Admin Account</h3>
+### Part 8: Create Dedicate Domain Admin Account
 
 1. Click **Start**, and select **Windows Administrative Tools**.
 2. From the options that drop down click **Active Directory Users and Computers**.
@@ -370,66 +370,66 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 21. On the login screen, click **Other user** in the bottom left corner.
 22. Log in with the new admin user account info you created in **steps 10 and 11**.
 
-<h3>Part 9: Install RAS / NAT</h3>
+### Part 9: Install RAS / NAT
 
-1. Click **Add roles and features** on the Server Manager Dashboard to open the Add Roles and Features Wizard.
-2. Click **Next** until you reach the Select server roles page.
+1. Click **Add roles and features** on the **Server Manager Dashboard** to open the **Add Roles and Features Wizard**.
+2. Click **Next** until you reach the **Select server roles** page.
 3. Check the box next to **Remote Access**.
-4. Click **Next** until you reach the Select role services page.
+4. Click **Next** until you reach the **Select role services** page.
 5. Click the box next to **Routing**.
 6. In the window that pops up click **Add Features**.
 7. Click **Next** through the next few pages, and click **Install**.
-8. Close the Add Roles and Features Wizard.
-9. Select **Tools** from the top right side of the Server Manager Dashboard, and click **Routing and Remote Access** from the dropdown menu. 
-10. In the Routing and Remote Access window, right click **DC (local)**, and select **Configure and Enable Routing and Remote Access** to open the Routing and Remote Access Setup Wizard.
+8. Close the **Add Roles and Features Wizard**.
+9. Select **Tools** from the top right side of the **Server Manager Dashboard**, and click **Routing and Remote Access** from the dropdown menu. 
+10. In the **Routing and Remote Access** window, right click **DC (local)**, and select **Configure and Enable Routing and Remote Access** to open the **Routing and Remote Access Setup Wizard**.
 11. Select **Network address translation (NAT)**, and click **Next**.
 12. Make sure **Use this public interface to connect to the internet** is selected.
-13. Under Network interfaces, select the one you named '**INTERNET**', and click **Next**.
+13. Under **Network interfaces**, select the one you named '**INTERNET**', and click **Next**.
 14. Click **Finish** to complete setup.
-15. In the Routing and Remote Access window you should now see a little icon with a green arrow pointing up next to **DC (local)**.
+15. In the **Routing and Remote Access** window you should now see a little icon with a green arrow pointing up next to **DC (local)**.
 
-<h3>Part 10: Set Up a DHCP Server On Your Domain Controller</h3>
+### Part 10: Set Up a DHCP Server On Your Domain Controller
 
-1. Click **Add roles and features** on the Server Manager Dashboard to open the Add Roles and Features Wizard
-2. Click **Next** until you reach the Select server roles page.
+1. Click **Add roles and features** on the **Server Manager Dashboard** to open the **Add Roles and Features Wizard**.
+2. Click **Next** until you reach the **Select server roles** page.
 3. Check the box next to **DHCP Server**.
 4. In the window that pops up click **Add Features**.
 5. Click **Next** through the next few pages and click **Install**.
-6. Close the Add Roles and Features Wizard.
-7. Select **Tools** from the top right side of the Server Manager Dashboard and click **DHCP** from the dropdown menu.
+6. Close the **Add Roles and Features Wizard**.
+7. Select **Tools** from the top right side of the **Server Manager Dashboard**, and click **DHCP** from the dropdown menu.
 8. In the DHCP window select your DHCP server by clicking **dc.mydomain.com**. 
-9. Right click **IPv4** and select **New Scope**. 
-10. In the New Scope Wizard window that appears click **Next**.
-11. On the Name Scope page enter the name of the scope in the box next to **Name**, and click **Next**.
+9. Right click **IPv4**, and select **New Scope**. 
+10. In the **New Scope Wizard** window that appears click **Next**.
+11. On the **Name Scope** page enter the name of the scope in the box next to **Name**, and click **Next**.
     * You can name the scope after what the IP range is (**172.16.0.100-200**)
-12. On the IP Address Range page enter the following information:
+12. On the **IP Address Range** page enter the following information:
     * **Start IP address:** 172.16.0.100
     * **End IP address:** 172.16.0.200
     * **Length:** 24
     * **Subnet mask:** 255.255.255.0
-13. Click **Next** to get to the Add Exclusions and Delay page.
+13. Click **Next** to get to the **Add Exclusions and Delay** page.
     * This page allows you to add any IP addresses you don’t want to give out, but you can leave it blank for this lab.
-14. Click **Next** to get to the Lease Duration Page.
-    * This page allows you to set how long a computer can have an IP address before it needs to be refreshed. You can leave it at 8 days for this lab.
-15. Click **Next** to reach the Configure DHCP Options page, and make sure **Yes, I want to configure these options now** is selected.
-16. Click **Next** to reach the Router(Default Gateway) page.
-17. In the box under IP address enter the Domain Controllers IP address (**172.16.0.1**), and click **Add**.
+14. Click **Next** to get to the **Lease Duration** page.
+    * This page allows you to set how long a computer can have an IP address before it needs to be refreshed. You can leave it at **8 days** for this lab.
+15. Click **Next** to reach the **Configure DHCP Options** page, and make sure **Yes, I want to configure these options now** is selected.
+16. Click **Next** to reach the **Router(Default Gateway)** page.
+17. In the box under **IP address** enter the Domain Controllers IP address (**172.16.0.1**), and click **Add**.
 18. Click **Next** through the next few pages, and click **Finish**.
-19. In the DHCP window right click your server (**dc.mydomain.com**) and select **Authorize**.
+19. In the **DHCP** window right click your server (**dc.mydomain.com**), and select **Authorize**.
 20. Right click the server again, and select **Refresh**.
     * Next to **IPv4** you should now see an icon with a green check mark indicating it is online now.
     * If you click the dropdown arrow next to **IPv4** you should also see the scope you just created.
 
-<h3>Part 11: Use PowerShell Script to Create Users</h3>
+### Part 11: Use PowerShell Script to Create Users
 
-1. From the Server Manager Dashboard, click **Configure this local server**.
+1. From the **Server Manager Dashboard**, click **Configure this local server**.
 2. Next to **IE Enhanced Security Configuration**, click **On**.
-3. Select **Off** under Administrators and Users. 
+3. Select **Off** under **Administrators and Users**. 
 4. Open **Internet Explorer**, and download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS 
 5. Click **Save as**, and save it to the **Desktop** folder.
 6. Right click the **AD_PS-master.zip** file you just downloaded, and select **Extract all**.
-7. Open the extracted folder. You will see a PowerShell script file named **1_CREATE_USERS**, and a text file named **names**.
-8. Open the **names** file and add your name at the top of the file.
+7. Open the extracted folder. You will see a PowerShell script file named **1_CREATE_USERS** and a text file named **names**.
+8. Open the **names** file, and add your name at the top of the file.
     * This file contains about 1000 randomized users that will be added to Active Directory once you run the PowerShell script.
 9. Click **Start**, and select **Windows PowerShell**.
 10. Right click **PowerShell ISE**, hover over **More**, and click **Run as administrator**.
@@ -444,7 +444,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 16. Click the play button to run the script.
 17. In the popup that appears, click **Run once**.
     * To confirm that the script worked, you can go back to Active Directory Users and Computers. You should now see a **USERS** folder under your domain with all the users the script just created.
-    * You may need to right click your domain and select **Refresh** to see all the new users.
+    * You may need to right click your domain, and select **Refresh** to see all the new users.
 18. Minimize your Domain Controller virtual machine.
 
 <h3>Part 12: Create Client Virtual Machine</h3>
@@ -458,10 +458,10 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
    * I suggest setting the Processors to at least 2 CPUs.
 6. You can click **Next** through the rest of the screens, and click **Finish** on the last screen.
 7. Select **Settings** from the top menu to edit the settings of the virtual machine you just created.
-8. Go to the **Advanced** tab and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to **Bidirectional**.
+8. Go to the **Advanced** tab, and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to **Bidirectional**.
     * Shared clipboard allows you to copy/paste between your host computer and the virtual machine.
     * Drag ‘n Drop allows you to drag/drop files between your host computer and the virtual machine.
-9. Select **Network** from the left menu and make sure **Adapter 1** is selected.
+9. Select **Network** from the left menu, and make sure **Adapter 1** is selected.
 10. From the dropdown next to **Attached to**, select **Internal Network**.
 11. Click **OK** in the bottom right corner to close the settings.
 
