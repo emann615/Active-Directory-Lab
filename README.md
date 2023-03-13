@@ -227,9 +227,9 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 19. Click **OK** again to close the Properties window.
 20. Right click **Start**, and select **System**.
 21. Click **Rename this PC**.
-22. Rename it something like '**DC**' for Domain Controller.
-23. Click **Next** and **Restart now**.
-24. In the little popup that appears click **Continue**.
+22. Rename it something like '**DC**' for Domain Controller, and click **Next**.
+23. Click **Restart now**.
+24. In the little popup that appears, click **Continue**.
 
 <h3>Part 7: Install Active Directory Domain Services and Create Your Domain</h3>
 
