@@ -199,23 +199,68 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <h3>Part 6: Set Up IP Addressing and Rename the PC</h3>
 
 1. Double click the **DC** machine to start it up again.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 2. Log in to the Administrator account.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 3. Click the Network icon on the right side of the bottom menu bar and click **Network** to open the network setting.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 4. Click **Change adapter options**.
    * You should see two network adapters in the window that pops up. You need to figure out which one connects to your home internet and which one will connect to your internal **VirtualBox** network.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 5. Right click the first network adapter and select **Status**.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 6. In the window that pops up, click **Details**.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 7. Check what IP address appears next to **IPv4 Address**.
    * If the IP address looks something like **10.0.2.15** it is probably connected to your home internet.
    * If the IP address looks something like **169.254.196.79**  it connects to the internal network.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 8. Close the **Details** window and the **Status** window.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 9. Repeat **steps 5-8** for the second network adapter.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 10. Right click on the adapter connected to your home internet, and select **Rename**.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 11. Rename it to something like '**INTERNET**'.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 12. Right click on the adapter that connects to the internal network, and select **Rename**.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 13. Rename it to something like '**INTERNAL**'.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 14. Right click on the internal network adapter again, and select **Properties**.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 15. Click Internet **Protocol Version 4 (TCP/IPv4)**.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 17. Click the circle next to **Use the following IP address**, and add the following information.
     * **IP address:** 172.16.0.1
     * **Subnet mask:** 255.255.255.0
@@ -223,13 +268,36 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
        * You do not need to add a default gateway because the domain controller itself will act as the default gateway.
     * **Preferred DNS server:** 127.0.0.1
        * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use your IP address (172.16.0.1) as the DNS instead.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 18. Click **OK** to save your settings.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 19. Click **OK** again to close the Properties window.
+
+<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+
 20. Right click **Start**, and select **System**.
+
+<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+
 21. Click **Rename this PC**.
+
+<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+
 22. Rename it something like '**DC**' for Domain Controller, and click **Next**.
+
+<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+
 23. Click **Restart now**.
+
+<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+
 24. In the little popup that appears, click **Continue**.
+
+<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
 
 <h3>Part 7: Install Active Directory Domain Services and Create Your Domain</h3>
 
