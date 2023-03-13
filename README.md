@@ -25,6 +25,10 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
    * [Part 4: Install and Set Up Windows Server 2022 on the DC Virtual Machine](#part-4-install-and-set-up-windows-server-2022-on-the-dc-virtual-machine)
    * [Part 5: Install VirtualBox Guest Additions](#part-5-install-virtualbox-guest-additions)
    * [Part 6: Set Up IP Addressing and Rename the PC](#part-6-set-up-ip-addressing-and-rename-the-pc)
+   * [Part 7: Install Active Directory Domain Services and Create Your Domain](#part-7-install-active-directory-domain-services-and-create-your-domain)
+   * [Part 8: Create Dedicate Domain Admin Account](#part-8-create-dedicate-domain-admin-account)
+   * [Part 9: Install RAS / NAT](#part-9-install-ras--nat)
+   * [Part 10: Set Up a DHCP Server On Your Domain Controller](#part-10-set-up-a-dhcp-server-on-your-domain-controller)
 
 ## Walk-through:
 
