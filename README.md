@@ -208,7 +208,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224601976-bc8881a4-d424-4235-b0d9-57bc4aa3f648.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-3. Click the Network icon on the right side of the bottom menu bar and click **Network** to open the network setting.
+3. Click the Network icon on the right side of the bottom menu bar, and click **Network** to open the network setting.
 
 <img src="https://user-images.githubusercontent.com/117882385/224601999-f4b16ffc-c96b-4c0c-9e31-e91cbe8ab364.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
@@ -221,7 +221,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224602069-7d41457f-7963-4a38-9b87-917e54154242.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-5. Right click the first network adapter and select **Status**.
+5. Right click the first network adapter, and select **Status**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224602111-2241d92b-04e4-440b-ae03-c4d1b1fff77c.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
@@ -267,7 +267,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-17. Click the circle next to **Use the following IP address**, and add the following information.
+17. Select **Use the following IP address**, and add the following information.
     * **IP address:** 172.16.0.1
     * **Subnet mask:** 255.255.255.0
     * **Default gateway:** (leave blank)
