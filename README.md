@@ -19,7 +19,12 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 ## Table of Contents:
 
-[Part 1: Install VirtualBox] (#part-1-install-virtual-box)
+   * [Part 1: Install VirtualBox](#part-1-install-virtualbox)
+   * [Part 2: Download Windows 10 and Windows Server 2022 ISO Files](#part-2-download-windows-10-and-windows-server-2022-iso-files)
+   * [Part 3: Create Domain Controller Virtual Machine](#part-3-create-domain-controller-virtual-machine)
+   * [Part 4: Install and Set Up Windows Server 2022 on the DC Virtual Machine](#part-4-install-and-set-up-windows-server-2022-on-the-dc-virtual-machine)
+   * [Part 5: Install VirtualBox Guest Additions](#part-5-install-virtualbox-guest-additions)
+   * [Part 6: Set Up IP Addressing and Rename the PC](#part-6-set-up-ip-addressing-and-rename-the-pc)
 
 ## Walk-through:
 
