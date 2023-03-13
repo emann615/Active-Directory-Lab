@@ -261,17 +261,17 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 13. Rename it to something like '**INTERNAL**'.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224604814-8e099bf9-15a1-4677-8bb3-4938f396409f.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 14. Right click on the internal network adapter again, and select **Properties**.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224604816-0fde3450-f8a2-4024-b2a1-65e1f9c43b87.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 15. Click Internet **Protocol Version 4 (TCP/IPv4)**.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224604817-b945bf6d-1ae7-4e5f-be68-c1ac075b61c7.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-17. Select **Use the following IP address**, and add the following information.
+16. Select **Use the following IP address**, and add the following information.
     * **IP address:** 172.16.0.1
     * **Subnet mask:** 255.255.255.0
     * **Default gateway:** (leave blank)
@@ -279,33 +279,33 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
     * **Preferred DNS server:** 127.0.0.1
        * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use your IP address (172.16.0.1) as the DNS instead.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605123-062fe7c2-7116-4ce2-ab7f-05dc5eb3f21e.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-18. Click **OK** to save your settings.
+17. Click **OK** to save your settings.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605125-773fffa7-2e5a-4dd4-ba30-93d4751d88e3.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-19. Click **OK** again to close the Properties window.
+18. Click **OK** again to close the Properties window.
 
-<img src="#" height="80%" width="80%" alt="IP Addressing Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605126-4dcc22d6-9b14-4041-98e2-1785c2659a86.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
-20. Right click **Start**, and select **System**.
+19. Right click **Start**, and select **System**.
 
-<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605241-d6fe3703-172d-41bb-bac9-bd9bbc67f94e.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 
-21. Click **Rename this PC**.
+20. Click **Rename this PC**.
 
-<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+<img src="https://user-images.githubusercontent.com/117882385/224605242-8742927a-aa86-4705-9604-3f5f6a6c6e00.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 
-22. Rename it something like '**DC**' for Domain Controller, and click **Next**.
-
-<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
-
-23. Click **Restart now**.
+21. Rename it something like '**DC**' for Domain Controller, and click **Next**.
 
 <img src="#" height="80%" width="80%" alt="Renaming the PC"/>
 
-24. In the little popup that appears, click **Continue**.
+22. Click **Restart now**.
+
+<img src="#" height="80%" width="80%" alt="Renaming the PC"/>
+
+23. In the little popup that appears, click **Continue**.
 
 <img src="#" height="80%" width="80%" alt="Renaming the PC"/>
 
