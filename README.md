@@ -328,23 +328,25 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Once you VM has restarted, log in to the **Administrator** account.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224820059-654eb436-6569-4cef-ab93-b12eee32d148.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 2. The **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the **Add Roles and Features Wizard**.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224820064-68e27ed4-0cac-4b39-908c-550a89976c1a.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 3. Click **Next** until you get to the page titled **Select destination server**.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224820554-f43337f1-d206-4060-ac66-220067627b55.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224820549-f8a53ed1-474f-429b-921b-fb0d19aca93a.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 4. You should see the server you created named **DC**. Select it, and click **Next**.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224820551-5009af3b-4c0d-4f74-ae96-f746dc9cbfde.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 5. On the next page titled **Select server roles**, click the box next to **Active Directory Domain Services**.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224820552-b2530968-d71b-4fc7-9970-afc8a07b4c11.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 6. In the popup that appears, click **Add Features**.
 
