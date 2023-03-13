@@ -6,7 +6,6 @@
 Active Directory (AD) is a directory service created by Microsoft that runs on Windows Servers. It allows administrators to control what access and permissions users and computers have on a domain network. In this lab, I will show you how to set up an Active Directory home lab using Oracle VM VirtualBox.
 <br />
 
-
 ## Languages and Utilities Used
 
 - <b>VirtualBox</b> 
