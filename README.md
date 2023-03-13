@@ -410,7 +410,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 14. Click **Next**, and click **Finish**.
 15. The user you just created will now appear in the **Active Directory Users and Computers** window. Right click the user, and select **Properties**.
 16. In the properties window, select the **Member of tab**, and click **Add**.
-17. In the box under **Enter the object names to select** type '**domain admins**'.
+17. In the box under **Enter the object names to select**, type '**domain admins**'.
 18. Click **Check Names**, and click **OK**.
 19. In the Properties window click **Apply** and **OK**.
 20. Click **Start** and sign out.
@@ -429,11 +429,12 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 8. Close the **Add Roles and Features Wizard**.
 9. Select **Tools** from the top right side of the **Server Manager Dashboard**, and click **Routing and Remote Access** from the dropdown menu. 
 10. In the **Routing and Remote Access** window, right click **DC (local)**, and select **Configure and Enable Routing and Remote Access** to open the **Routing and Remote Access Setup Wizard**.
-11. Select **Network address translation (NAT)**, and click **Next**.
-12. Make sure **Use this public interface to connect to the internet** is selected.
-13. Under **Network interfaces**, select the one you named '**INTERNET**', and click **Next**.
-14. Click **Finish** to complete setup.
-15. In the **Routing and Remote Access** window you should now see a little icon with a green arrow pointing up next to **DC (local)**.
+11. Click **Next** to reach the **Configuration** page.
+12. Select **Network address translation (NAT)**, and click **Next**.
+13. Make sure **Use this public interface to connect to the internet** is selected.
+14. Under **Network interfaces**, select the one you named '**INTERNET**', and click **Next**.
+15. Click **Finish** to complete setup.
+16. In the **Routing and Remote Access** window you should now see a little icon with a green arrow pointing up next to **DC (local)**.
 
 ### Part 10: Set Up a DHCP Server On Your Domain Controller
 
