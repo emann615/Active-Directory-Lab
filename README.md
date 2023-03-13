@@ -362,7 +362,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 12. Create a password. Again you can use '**Password1**'.
 13. Uncheck the box next to **User must change password at next logon**, and check the box next to **Password never expires**.
 14. Click **Next**, and click **Finish**.
-15. The user you just created will now appear in the Active Directory Users and Computers window. Right click the user, and select **Properties**.
+15. The user you just created will now appear in the **Active Directory Users and Computers** window. Right click the user, and select **Properties**.
 16. In the properties window, select the **Member of tab**, and click **Add**.
 17. In the box under **Enter the object names to select** type '**domain admins**'.
 18. Click **Check Names**, and click **OK**.
