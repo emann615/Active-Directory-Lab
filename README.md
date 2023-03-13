@@ -397,7 +397,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 5. Click **Next** through the next few pages and click **Install**.
 6. Close the **Add Roles and Features Wizard**.
 7. Select **Tools** from the top right side of the **Server Manager Dashboard**, and click **DHCP** from the dropdown menu.
-8. In the DHCP window select your DHCP server by clicking **dc.mydomain.com**. 
+8. In the **DHCP** window select your DHCP server by clicking **dc.mydomain.com**. 
 9. Right click **IPv4**, and select **New Scope**. 
 10. In the **New Scope Wizard** window that appears click **Next**.
 11. On the **Name Scope** page enter the name of the scope in the box next to **Name**, and click **Next**.
