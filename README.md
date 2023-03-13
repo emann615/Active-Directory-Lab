@@ -219,8 +219,6 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 2. Log in to the Administrator account.
 
-<img src="https://user-images.githubusercontent.com/117882385/224601940-7696049b-15ea-4ec7-99e1-d5ce28ebb8f1.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
-
 <img src="https://user-images.githubusercontent.com/117882385/224601976-bc8881a4-d424-4235-b0d9-57bc4aa3f648.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
 3. Click the Network icon on the right side of the bottom menu bar, and click **Network** to open the network setting.
