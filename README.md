@@ -29,6 +29,8 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
    * [Part 8: Create Dedicate Domain Admin Account](#part-8-create-dedicate-domain-admin-account)
    * [Part 9: Install RAS / NAT](#part-9-install-ras--nat)
    * [Part 10: Set Up a DHCP Server On Your Domain Controller](#part-10-set-up-a-dhcp-server-on-your-domain-controller)
+   * [Part 11: Use PowerShell Script to Create Users](#part-11-use-powershell-script-to-create-users)
+   * [Part 12: Create Client Virtual Machine](#part-12-create-client-virtual-machine)
 
 ## Walk-through:
 
