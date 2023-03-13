@@ -164,7 +164,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224579642-ab19a399-921f-4dfe-bf35-0b424f67b3d3.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
-2. Open **File Explorer** from the bottom menu bar and click **This PC**.
+2. Open **File Explorer** from the bottom menu bar, and click **This PC**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224599787-12a3d080-b57d-49ba-a5ad-eb4cd176699d.jpg" height="80%" width="80%" alt="VirtualBox Guest Additions Installation"/>
 
