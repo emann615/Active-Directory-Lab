@@ -277,7 +277,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
     * **Default gateway:** (leave blank)
        * You do not need to add a default gateway because the domain controller itself will act as the default gateway.
     * **Preferred DNS server:** 127.0.0.1
-       * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use your IP address (172.16.0.1) as the DNS instead.
+       * 127.0.0.1 is a loopback address that refers to your IP address, so you can also use the server's IP address (172.16.0.1) as the DNS instead.
 
 <img src="https://user-images.githubusercontent.com/117882385/224605123-062fe7c2-7116-4ce2-ab7f-05dc5eb3f21e.jpg" height="80%" width="80%" alt="IP Addressing Setup"/>
 
