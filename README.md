@@ -328,7 +328,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Once you VM has restarted, log in to the **Administrator** account.
 2. The **Server Manager Dashboard** will automatically load up, and you need to click **Add roles and features** to open the **Add Roles and Features Wizard**.
-3. In the window that appears, click **Next** until you get to the page titled **Select destination server**.
+3. Click **Next** until you get to the page titled **Select destination server**.
 4. You should see the server you created named **DC**. Select it, and click **Next**.
 5. On the next page titled **Select server roles**, click the box next to **Active Directory Domain Services**.
 6. In the popup that appears, click **Add Features**.
