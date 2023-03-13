@@ -1,26 +1,26 @@
-<h1>Active Directory Home Lab</h1>
+# Active Directory Home Lab
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
-<h2>Description</h2>
+## Description
 Active Directory (AD) is a directory service created by Microsoft that runs on Windows Servers. It allows administrators to control what access and permissions users and computers have on a domain network. In this lab, I will show you how to set up an Active Directory home lab using Oracle VM VirtualBox.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+## Languages and Utilities Used
 
 - <b>VirtualBox</b> 
 - <b>Active Directory</b>
 - <b>PowerShell</b>
 
-<h2>Environments Used </h2>
+## Environments Used
 
 - <b>Windows 10</b> (21H2)
 - <b>Windows Server 2022</b>
 
-<h2>Program walk-through:</h2>
+## Walk-through:
 
-<h3>Part 1: Install VirtualBox</h3>
+### Part 1: Install VirtualBox
 
 1. Download **VirtualBox** by going to the following link: https://www.virtualbox.org/wiki/Downloads
    - Download the version for whatever OS you are using.
