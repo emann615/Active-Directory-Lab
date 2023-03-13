@@ -19,6 +19,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 ## Table of Contents:
 
+[Part 1: Install VirtualBox] (#part-1-install-virtual-box)
 
 ## Walk-through:
 
