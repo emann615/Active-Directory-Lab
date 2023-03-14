@@ -673,27 +673,31 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. From the **Server Manager Dashboard**, click **Configure this local server**.
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/224910801-42bd2bdd-6f91-41ef-a04f-2bfee856ae11.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 2. Next to **IE Enhanced Security Configuration**, click **On**.
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/224910783-80103f6f-8583-4d26-aa27-75ea3e5122da.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 3. Select **Off** under **Administrators and Users**. 
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/224910789-30c3092c-ad95-4be3-a09c-cb742c550c85.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 4. Open **Microsoft Edge**, and click **Get Started**.
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/224910791-5e3bb2cd-2aa7-44bd-ae0a-fc821d458fad.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 5. Click **Continue**, and **Continue without signing in**. 
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/224910793-9430f4c3-3403-4dfd-b729-e80b8bc081ab.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224910796-a8d8e325-0a72-4a03-a55f-5b0994d5f5dd.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 6. Download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS/archive/refs/heads/master.zip
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/224910798-e422f994-fd68-40a7-9369-77761fe41552.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224910799-6e613c03-98f1-4997-9d6f-a9d6a581b33c.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 7. Open **File Explorer** and click the **Downloads** folder. 
 
