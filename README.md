@@ -701,37 +701,79 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 7. Open **File Explorer** and click the **Downloads** folder. 
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/225100418-21f0c4a2-1fad-4e2b-b35e-30976055818a.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225100421-a07fcafc-917c-4bf1-a60f-e0461a12aeba.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 8. Open the **AD_PS-master.zip** file.
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/225100424-29f3549f-7fa6-44d7-b4da-169bc0e64e07.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 9. Drag the **AD_PS-master** folder to the desktop.
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/225100425-71f33ded-18d3-4969-8141-19c4b2df1244.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 10. Open then **AD_PS-master** folder. You will see a PowerShell script file named **1_CREATE_USERS** and a text file named **names**.
 
-<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+<img src="https://user-images.githubusercontent.com/117882385/225100429-41617204-6763-4e9f-9b66-30f90fdf9cd1.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 11. Open the **names** file, and add your name at the top of the file.
     * This file contains about 1000 randomized users that will be added to Active Directory once you run the PowerShell script.
+
+<img src="https://user-images.githubusercontent.com/117882385/225100435-59f65c18-061f-4e23-8cfd-fbb66e3a8689.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225100412-a34c1172-1c54-4a28-9670-5041e83e767f.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 12. Click **Start**, and select **Windows PowerShell**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101135-f7481640-d4c0-4fd7-9140-97e128e757c7.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 13. Right click **PowerShell ISE**, hover over **More**, and click **Run as administrator**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101136-d8f46399-7dae-48c7-b752-88cc4fbfdfa3.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 14. Click **Yes** when asked '**Do you want to allow this app to make changes to your device?**'.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101137-c971a406-b212-48d9-ba12-37806a43eb57.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 15. Click the open scripts icon from the top menu bar, navigate the **1_CREATE_USERS** script, and open it.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101139-f400c77c-ce9f-4de7-b4f4-a428b1d68bdd.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225101142-3507df27-e8db-4cdf-8afe-8694e2d8aa4b.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 16. Enter the following command in PowerShell:
     * PS C:\Windows\system32> **Set-ExecutionPolicy unrestricted**
+
+<img src="https://user-images.githubusercontent.com/117882385/225101145-9aa50a7e-4dee-432a-9883-8101aebf4841.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 17. Click **Yes to All** in the popup that appears.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101148-1c66d9b8-8b82-406f-85df-5538870e4af8.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 18. Enter the following commands in PowerShell:
     * C:\Windows\system32> **cd c:\users\a-emann\desktop\AD_PS-master** 
      * Replace a-emann with your own username.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101150-7005a806-6e6d-4960-9b08-e0cfcd717e99.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 19. Click the play button to run the script.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101878-2c564389-dada-43de-83b6-8d3b599cf19d.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 20. In the popup that appears, click **Run once**.
     * To confirm that the script worked, you can go back to **Active Directory Users and Computers**. You should now see a **USERS** folder under your domain with all the users the script just created.
     * You may need to right click your domain, and select **Refresh** to see all the new users.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101882-0f220a70-9c63-4dac-a01e-53b3da5a43f7.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225101886-9ccfb58f-f5ed-4717-97c6-265c3163e92b.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225101891-380269cc-2e25-4423-bc39-1ad8fe7c5642.jpg" width="80%" alt="User Creation with Powershell Script"/>
+
 21. Minimize your Domain Controller virtual machine.
+
+<img src="https://user-images.githubusercontent.com/117882385/225101892-2a362afb-e407-4821-941a-f47d0fc2703d.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
 <h3>Part 12: Create Client Virtual Machine</h3>
 
