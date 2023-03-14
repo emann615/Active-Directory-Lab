@@ -348,72 +348,144 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 6. In the popup that appears, click **Add Features**.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871014-a5676608-edd1-45e3-af6f-e32d10879f46.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 7. Click **Next** through the next few pages, and click **Install**.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871005-5e5ee90c-7151-4128-9750-f57466137852.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224871009-e43405f7-f3ce-486d-954a-0cd4608efd09.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224871010-b32b5068-59c3-4e30-a9c0-edcae9cf4c9e.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224871012-23bfcc78-86ae-435d-b94e-cc9ba87558b1.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 8. Click **Close** to exit the **Add Roles and Features Wizard**.
 
-<img src="#" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871599-326b1442-a005-4856-9e0b-83d7d272440f.jpg" height="80%" width="80%" alt="Active Directory Domain Services Installation"/>
 
 9. On the top right side of the **Server Manager Dashboard** you should see a flag icon with a yellow warning icon next to it. Click it.
 
-<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871604-d8cc9b8f-6fcd-4bec-9e86-e60914e5a457.jpg" height="80%" width="80%" alt="Domain Creation"/>
 
 10. From the menu that drops down, click **Promote this server to a domain controller**. This will open the **Active Directory Domain Services Configuration Wizard**.
 
-<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871607-af0464e0-3927-4866-ba20-aac7410c79a3.jpg" height="80%" width="80%" alt="Domain Creation"/>
 
 11. Select **Add a new forest**.
 12. In the box next to **Root domain name**, add your domain name, and click **Next**.
     * You can name the domain anything you want, but for the purposes of this lab just use '**mydomain.com**'.
 
-<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871608-66b34018-5547-400a-accc-ce4a8fdd9f85.jpg" height="80%" width="80%" alt="Domain Creation"/>
 
 13. Type in a password and click **Next**. 
     * I suggest using '**Password1**' again if you are only using this for the lab.
 
-<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871912-077b3383-0aa0-4a94-bc15-cf1756ed7b85.jpg" height="80%" width="80%" alt="Domain Creation"/>
 
 14. Click **Next** through the next few pages, and click **Install**.
 
-<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224871918-1f6ee3d0-3a64-482a-ab92-c9886d9f13ef.jpg" height="80%" width="80%" alt="Domain Creation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224871920-19772698-8a0f-40d6-a398-d8526fa2f6e8.jpg" height="80%" width="80%" alt="Domain Creation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224871923-bf07f057-753e-436b-8800-97ca318146c8.jpg" height="80%" width="80%" alt="Domain Creation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224871924-442385ab-3679-4652-8865-78b0419bbb8a.jpg" height="80%" width="80%" alt="Domain Creation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224871926-dadcbe44-9bb9-412a-9cf4-629ae44beb63.jpg" height="80%" width="80%" alt="Domain Creation"/>
 
 15. Once it has finished installing, you will see a popup that says '**You are about to be signed out**'. Click **Close**, and your VM will automatically restart.
 
-<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224872832-04b7bd0a-bc4f-4abd-85bf-fc5ab68cc1ba.jpg" height="80%" width="80%" alt="Domain Creation"/>
 
 16. Once your VM has loaded back up, log in to the **Administrator** account again.
     * You will notice your account name now says '**MYDOMAIN\Administrator**'.
 
-<img src="#" height="80%" width="80%" alt="Domain Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224872833-6cff9ce7-128a-4212-a7ee-5a69379e0738.jpg" height="80%" width="80%" alt="Domain Creation"/>
 
 ### Part 8: Create Dedicate Domain Admin Account
 
 1. Click **Start**, and select **Windows Administrative Tools**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224877711-7a5191ed-0036-4cba-a65c-decf231b07d4.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 2. From the options that drop down click **Active Directory Users and Computers**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224877714-8e5c797d-686c-461c-a63e-421dbd444acc.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 3. In the window that appears, right click **mydomain.com**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224877715-823fa8ca-bee2-4f62-9689-48e84ca20659.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 4. Hover over **New**, and select **Organizational Unit**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224877716-a3506d85-34b4-4513-8d6a-4f4bd86db798.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 5. In the box under Name, put it something like '**ADMINS**'. 
+
 6. [OPTIONAL] Uncheck the box next to **Protect container from accidental deletion**, and click **OK**.
    * This just makes it easier to delete later.
+
+<img src="https://user-images.githubusercontent.com/117882385/224877707-0c695f4f-8e57-4ae1-8917-cedb70218736.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 8. Right click the Organization Unit you just created named **ADMINS**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 9. Hover over **New**, and select **User**.
+
 10. Fill out the name information using your name.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 11. In the box under **User logon name**, add a user name for your admin account, and click **Next**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 12. Create a password. Again you can use '**Password1**'.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 13. Uncheck the box next to **User must change password at next logon**, and check the box next to **Password never expires**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 14. Click **Next**, and click **Finish**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 15. The user you just created will now appear in the **Active Directory Users and Computers** window. Right click the user, and select **Properties**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 16. In the properties window, select the **Member of tab**, and click **Add**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 17. In the box under **Enter the object names to select**, type '**domain admins**'.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 18. Click **Check Names**, and click **OK**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 19. In the Properties window click **Apply** and **OK**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 20. Click **Start** and sign out.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 21. On the login screen, click **Other user** in the bottom left corner.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
 22. Log in with the new admin user account info you created in **steps 10 and 11**.
+
+<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
 ### Part 9: Install RAS / NAT
 
