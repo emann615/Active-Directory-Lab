@@ -485,11 +485,11 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 20. On the login screen, click **Other user** in the bottom left corner.
 
-<img src="https://user-images.githubusercontent.com/117882385/224879802-35ade2b8-e764-4f7f-87f5-0ea9257856ab.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879805-4e2362f7-0ce4-4d86-b612-79e55c515810.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
 21. Log in with the new admin user account info you created in **steps 10 and 11**.
 
-<img src="https://user-images.githubusercontent.com/117882385/224879805-4e2362f7-0ce4-4d86-b612-79e55c515810.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879802-35ade2b8-e764-4f7f-87f5-0ea9257856ab.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
 ### Part 9: Install RAS / NAT
 
