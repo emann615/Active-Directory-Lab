@@ -679,7 +679,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224910783-80103f6f-8583-4d26-aa27-75ea3e5122da.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
-3. Select **Off** under **Administrators and Users**. 
+3. Select **Off** under **Administrators and Users**, and click **OK**. 
 
 <img src="https://user-images.githubusercontent.com/117882385/224910789-30c3092c-ad95-4be3-a09c-cb742c550c85.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
