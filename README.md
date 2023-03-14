@@ -471,27 +471,29 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 1. From the **Server Manager Dashboard**, click **Configure this local server**.
 2. Next to **IE Enhanced Security Configuration**, click **On**.
 3. Select **Off** under **Administrators and Users**. 
-4. Open **Internet Explorer**, and download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS 
-5. Click **Save as**, and save it to the **Desktop** folder.
-6. Right click the **AD_PS-master.zip** file you just downloaded, and select **Extract all**.
-7. Open the extracted folder. You will see a PowerShell script file named **1_CREATE_USERS** and a text file named **names**.
-8. Open the **names** file, and add your name at the top of the file.
+4. Open **Microsoft Edge**, and click **Get Started**.
+5. Click **Continue**, and **Continue without signing in**. 
+6. Download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS/archive/refs/heads/master.zip 
+7. Click **Save as**, and save it to the **Desktop** folder.
+8. Right click the **AD_PS-master.zip** file you just downloaded, and select **Extract all**.
+9. Open the extracted folder. You will see a PowerShell script file named **1_CREATE_USERS** and a text file named **names**.
+10. Open the **names** file, and add your name at the top of the file.
     * This file contains about 1000 randomized users that will be added to Active Directory once you run the PowerShell script.
-9. Click **Start**, and select **Windows PowerShell**.
-10. Right click **PowerShell ISE**, hover over **More**, and click **Run as administrator**.
-11. Click **Yes** when asked '**Do you want to allow this app to make changes to your device?**'.
-12. Click the open scripts icon from the top menu bar, navigate the **1_CREATE_USERS** script, and open it.
-13. Enter the following command in PowerShell:
+11. Click **Start**, and select **Windows PowerShell**.
+12. Right click **PowerShell ISE**, hover over **More**, and click **Run as administrator**.
+13. Click **Yes** when asked '**Do you want to allow this app to make changes to your device?**'.
+14. Click the open scripts icon from the top menu bar, navigate the **1_CREATE_USERS** script, and open it.
+15. Enter the following command in PowerShell:
     * PS C:\Windows\system32> **Set-ExecutionPolicy unrestricted**
-14. Click **Yes to All** in the popup that appears.
-15. Enter the following commands in PowerShell:
+16. Click **Yes to All** in the popup that appears.
+17. Enter the following commands in PowerShell:
     * C:\Windows\system32> **cd c:\users\a-emann\desktop\AD_PS-master** 
      * Replace a-emann with your own username.
-16. Click the play button to run the script.
-17. In the popup that appears, click **Run once**.
+18. Click the play button to run the script.
+19. In the popup that appears, click **Run once**.
     * To confirm that the script worked, you can go back to **Active Directory Users and Computers**. You should now see a **USERS** folder under your domain with all the users the script just created.
     * You may need to right click your domain, and select **Refresh** to see all the new users.
-18. Minimize your Domain Controller virtual machine.
+20. Minimize your Domain Controller virtual machine.
 
 <h3>Part 12: Create Client Virtual Machine</h3>
 
