@@ -494,21 +494,68 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 ### Part 9: Install RAS / NAT
 
 1. Click **Add roles and features** on the **Server Manager Dashboard** to open the **Add Roles and Features Wizard**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 2. Click **Next** until you reach the **Select server roles** page.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 3. Check the box next to **Remote Access**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 4. Click **Next** until you reach the **Select role services** page.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 5. Click the box next to **Routing**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 6. In the window that pops up click **Add Features**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 7. Click **Next** through the next few pages, and click **Install**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 8. Close the **Add Roles and Features Wizard**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 9. Select **Tools** from the top right side of the **Server Manager Dashboard**, and click **Routing and Remote Access** from the dropdown menu. 
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 10. In the **Routing and Remote Access** window, right click **DC (local)**, and select **Configure and Enable Routing and Remote Access** to open the **Routing and Remote Access Setup Wizard**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 11. Click **Next** to reach the **Configuration** page.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 12. Select **Network address translation (NAT)**, and click **Next**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 13. Make sure **Use this public interface to connect to the internet** is selected.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 14. Under **Network interfaces**, select the one you named '**INTERNET**', and click **Next**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 15. Click **Finish** to complete setup.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+
 16. In the **Routing and Remote Access** window you should now see a little icon with a green arrow pointing up next to **DC (local)**.
+
+<img src="#" height="80%" width="80%" alt="Routing Installation"/>
 
 ### Part 10: Set Up a DHCP Server On Your Domain Controller
 
