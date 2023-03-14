@@ -579,7 +579,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 3. Check the box next to **DHCP Server**.
 
-<img src="https://user-images.githubusercontent.com/117882385/224885160-29487b4d-850e-4fe1-8251-b36f2b96409e.jpg" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224887222-3563dadf-986a-49ee-bc6d-bf60aede5005.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 4. In the window that pops up click **Add Features**.
 
