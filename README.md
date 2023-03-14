@@ -683,7 +683,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224910789-30c3092c-ad95-4be3-a09c-cb742c550c85.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
-4. Open **Microsoft Edge**, and click **Get Started**.
+4. Open **Microsoft Edge**, and click **Get started**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224910791-5e3bb2cd-2aa7-44bd-ae0a-fc821d458fad.jpg" width="80%" alt="User Creation with Powershell Script"/>
 
