@@ -495,67 +495,79 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Click **Add roles and features** on the **Server Manager Dashboard** to open the **Add Roles and Features Wizard**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224881412-65995d40-e079-4759-a190-446959132ce9.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 2. Click **Next** until you reach the **Select server roles** page.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224881416-d256b748-57da-41ad-b13e-a4ee158e33cf.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224881418-4410c9e8-6b77-4036-9135-5f9029783c0f.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224881420-fb00a96d-1728-4b8f-b294-3ee5ef2ea906.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 3. Check the box next to **Remote Access**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224881421-690edb3f-3e0b-4eb1-bb0e-3082028cef44.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 4. Click **Next** until you reach the **Select role services** page.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224881759-cd991454-3689-472e-b274-12cebb82bcaf.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224881760-e18e06a1-17d8-4970-8196-dbba9340d82f.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224881762-982fae4d-00b9-465e-b53a-bf82df4b2f69.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 5. Click the box next to **Routing**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224881765-6d9c517b-6f6b-405e-9d39-a006883a6a97.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 6. In the window that pops up click **Add Features**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224881766-bf82f0fe-da56-4174-897d-3f190dd6e79c.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 7. Click **Next** through the next few pages, and click **Install**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882076-add69750-ccd2-4912-b7a8-72b31993a4a3.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224882078-4e26ef40-c9f6-4e6c-b2e0-c4ba85c729a6.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224882079-b7506aa9-9a2e-4b35-945c-58fb6cc9e3db.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224882080-745bc64e-de08-4600-a371-d74f33f71084.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 8. Close the **Add Roles and Features Wizard**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882081-43d01d1c-f9d8-435c-ae49-b2d7f8690c68.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 9. Select **Tools** from the top right side of the **Server Manager Dashboard**, and click **Routing and Remote Access** from the dropdown menu. 
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882408-161e7beb-768a-4c55-a600-e85b54066ddb.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 10. In the **Routing and Remote Access** window, right click **DC (local)**, and select **Configure and Enable Routing and Remote Access** to open the **Routing and Remote Access Setup Wizard**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882410-e273587b-3a50-470d-8022-aee391f013f4.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 11. Click **Next** to reach the **Configuration** page.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882411-d9168fc9-01a6-4e1f-b47b-244ac8aaafda.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 12. Select **Network address translation (NAT)**, and click **Next**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882413-ac12c13e-af67-4533-9d3b-d658aaba755c.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 13. Make sure **Use this public interface to connect to the internet** is selected.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
-
 14. Under **Network interfaces**, select the one you named '**INTERNET**', and click **Next**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882405-d00b5340-e29a-429e-8049-f978cc538c57.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 15. Click **Finish** to complete setup.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882670-e2b1a375-15f6-4c46-8538-2a7b56c68674.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 16. In the **Routing and Remote Access** window you should now see a little icon with a green arrow pointing up next to **DC (local)**.
 
-<img src="#" height="80%" width="80%" alt="Routing Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224882671-46fb31b5-eac2-43b6-99e5-80acdb08623a.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 ### Part 10: Set Up a DHCP Server On Your Domain Controller
 
