@@ -778,21 +778,56 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <h3>Part 12: Create Client Virtual Machine</h3>
 
 1. Go back to **VirtualBox**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225107993-8e2f9fc6-bd09-4b40-b58f-8537f512544a.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 2. Click **New** from the top menu bar to set up a new machine.
+
+<img src="https://user-images.githubusercontent.com/117882385/225107994-a946e8a2-05e4-4e8f-8de1-e9dca0370b1b.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 3. Name the machine '**CLIENT1**'.
+
 4. From the dropdown next to **Version**, select **Windows 10 (64 bit)**, and click **Next**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225107997-186e4fe5-d118-47ab-aafa-ecc2345db346.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 5. On the next screen set the amount of **RAM** and the number of **CPUs** you want to use.
    * If you have at least 8GB of RAM on your host computer, setting the ram to 2048MB works pretty well.
    * I suggest setting the processors to at least 2 CPUs.
+
+<img src="https://user-images.githubusercontent.com/117882385/225108002-52f10bee-cb1c-4c55-8253-c31cd0399f3b.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 6. You can click **Next** through the rest of the screens, and click **Finish** on the last screen.
+
+<img src="https://user-images.githubusercontent.com/117882385/225108004-97d88d63-18b8-4d99-85e3-83ed8eb4b739.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225108005-32a0402e-e193-4c31-811f-0774c6ce2d80.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225107989-e7e64ec3-2f83-46dd-ae1a-68b5d2830227.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 7. Select **Settings** from the top menu to edit the settings of the virtual machine you just created.
+
+<img src="https://user-images.githubusercontent.com/117882385/225109389-efe09766-e34a-4f96-b165-11bc2d2ec993.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 8. Go to the **Advanced** tab, and set both the dropdowns next to **Shared Clipboard** and **Drag ‘n Drop** to **Bidirectional**.
     * Shared clipboard allows you to copy/paste between your host computer and the virtual machine.
     * Drag ‘n Drop allows you to drag/drop files between your host computer and the virtual machine.
+
+<img src="https://user-images.githubusercontent.com/117882385/225109398-1270f6a8-12c3-4c5f-9b33-826167ab0dd4.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225109401-95e5d8c3-e87c-44ee-bccd-1be704a2be03.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 9. Select **Network** from the left menu, and make sure **Adapter 1** is selected.
+
+<img src="https://user-images.githubusercontent.com/117882385/225109404-fad061d3-dac5-4e34-bf90-6e6236d870f2.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 10. From the dropdown next to **Attached to**, select **Internal Network**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225109411-0636d6da-b072-451b-9ffd-79f6dab4d793.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
+
 11. Click **OK** in the bottom right corner to close the settings.
 
+<img src="https://user-images.githubusercontent.com/117882385/225109415-a21fb0b3-d454-45e9-b771-4c99efafc09d.jpg" width="80%" alt="CLIENT1 Virtual Machine Creation"/>
 
 
 
