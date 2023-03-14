@@ -429,63 +429,67 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224877707-0c695f4f-8e57-4ae1-8917-cedb70218736.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-8. Right click the Organization Unit you just created named **ADMINS**.
+7. Right click the Organization Unit you just created named **ADMINS**.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224877941-fef9f2a6-8c56-4e02-be53-8921d563c99f.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-9. Hover over **New**, and select **User**.
+8. Hover over **New**, and select **User**.
 
-10. Fill out the name information using your name.
+<img src="https://user-images.githubusercontent.com/117882385/224877942-726b16a0-9896-4290-b290-a700775667e3.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+9. Fill out the name information using your name.
 
-11. In the box under **User logon name**, add a user name for your admin account, and click **Next**.
+10. In the box under **User logon name**, add a user name for your admin account, and click **Next**.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224877943-4f22fc0a-e694-4326-bc15-9a68b925eb05.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-12. Create a password. Again you can use '**Password1**'.
+11. Create a password. Again you can use '**Password1**'.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+12. Uncheck the box next to **User must change password at next logon**, and check the box next to **Password never expires**.
 
-13. Uncheck the box next to **User must change password at next logon**, and check the box next to **Password never expires**.
+<img src="https://user-images.githubusercontent.com/117882385/224877940-b00ec27c-c2f4-4dbe-a8ab-59c0547f10cb.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+13. Click **Next**, and click **Finish**.
 
-14. Click **Next**, and click **Finish**.
+<img src="https://user-images.githubusercontent.com/117882385/224879067-e30efd72-7746-4f49-9d2a-a590a2862401.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879076-6ca50c9c-b574-4be1-a544-3f2fc178e843.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-15. The user you just created will now appear in the **Active Directory Users and Computers** window. Right click the user, and select **Properties**.
+14. The user you just created will now appear in the **Active Directory Users and Computers** window. Right click the user, and select **Properties**.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879081-4d7dac2f-d785-4d0d-a2ab-f29e362a412d.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-16. In the properties window, select the **Member of tab**, and click **Add**.
+15. In the properties window, select the **Member of tab**, and click **Add**.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879085-3dcf9012-7ab5-4086-91e6-22f7af527707.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-17. In the box under **Enter the object names to select**, type '**domain admins**'.
+16. In the box under **Enter the object names to select**, type '**domain admins**'.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879088-c575503c-492e-4b62-b94d-224d6e29de9d.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-18. Click **Check Names**, and click **OK**.
+17. Click **Check Names**, and click **OK**.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879429-cea7ddc1-6f9a-45e4-8dcc-d87b91de30c2.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-19. In the Properties window click **Apply** and **OK**.
+<img src="https://user-images.githubusercontent.com/117882385/224879433-5fc5aa9b-523d-4482-b785-b74c03f7ba65.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+18. In the Properties window click **Apply** and **OK**.
 
-20. Click **Start** and sign out.
+<img src="https://user-images.githubusercontent.com/117882385/224879434-ce89a8f3-1cf9-49b6-a1f3-20267660e787.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879436-a13e9356-0fc1-4a3d-b049-f5ba9c5a1356.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-21. On the login screen, click **Other user** in the bottom left corner.
+19. Click **Start** and sign out.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879438-634e1c19-4705-474c-b720-704d8d7d9159.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
-22. Log in with the new admin user account info you created in **steps 10 and 11**.
+20. On the login screen, click **Other user** in the bottom left corner.
 
-<img src="#" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+<img src="https://user-images.githubusercontent.com/117882385/224879802-35ade2b8-e764-4f7f-87f5-0ea9257856ab.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
+
+21. Log in with the new admin user account info you created in **steps 10 and 11**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224879805-4e2362f7-0ce4-4d86-b612-79e55c515810.jpg" height="80%" width="80%" alt="Domain Admin Account Creation"/>
 
 ### Part 9: Install RAS / NAT
 
