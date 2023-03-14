@@ -581,7 +581,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224887222-3563dadf-986a-49ee-bc6d-bf60aede5005.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
-4. In the window that pops up click **Add Features**.
+4. In the window that pops up, click **Add Features**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224885166-a9602a3b-de6f-46c6-9bbe-9a9e466009c5.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
@@ -597,7 +597,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224885169-cd1763e6-3689-4240-8474-502209720591.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
-8. In the **DHCP** window select your DHCP server by clicking **dc.mydomain.com**. 
+8. In the **DHCP** window, select your DHCP server by clicking **dc.mydomain.com**. 
 
 <img src="https://user-images.githubusercontent.com/117882385/224885170-e6751edf-ddf7-43d7-b691-088f14012dd4.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
@@ -605,16 +605,16 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224885171-02c7e043-20e4-4fac-84c3-249268bed9d3.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
-10. In the **New Scope Wizard** window that appears click **Next**.
+10. In the **New Scope Wizard** window that appears, click **Next**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224885720-08d4c016-7d80-42bd-ad03-1d1b22c488e0.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
-11. On the **Name Scope** page enter the name of the scope in the box next to **Name**, and click **Next**.
+11. On the **Name Scope** page, enter the name of the scope in the box next to **Name**, and click **Next**.
     * You can name the scope after what the IP range is (**172.16.0.100-200**)
 
 <img src="https://user-images.githubusercontent.com/117882385/224885722-6245adb6-cb3e-4c0c-b489-16fbcca2d666.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
-12. On the **IP Address Range** page enter the following information:
+12. On the **IP Address Range** page, enter the following information:
     * **Start IP address:** 172.16.0.100
     * **End IP address:** 172.16.0.200
     * **Length:** 24
@@ -655,7 +655,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 <img src="https://user-images.githubusercontent.com/117882385/224886292-79257cea-66df-4f8f-acdc-2589bae708f7.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 
-19. In the **DHCP** window right click your server (**dc.mydomain.com**), and select **Authorize**.
+19. In the **DHCP** window, right click your server (**dc.mydomain.com**), and select **Authorize**.
 
 <img src="https://user-images.githubusercontent.com/117882385/224886692-3100e8ab-35db-4150-bb16-a184a81f6be7.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
