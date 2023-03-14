@@ -572,34 +572,102 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 ### Part 10: Set Up a DHCP Server On Your Domain Controller
 
 1. Click **Add roles and features** on the **Server Manager Dashboard** to open the **Add Roles and Features Wizard**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885160-29487b4d-850e-4fe1-8251-b36f2b96409e.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 2. Click **Next** until you reach the **Select server roles** page.
+
 3. Check the box next to **DHCP Server**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885160-29487b4d-850e-4fe1-8251-b36f2b96409e.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 4. In the window that pops up click **Add Features**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885166-a9602a3b-de6f-46c6-9bbe-9a9e466009c5.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 5. Click **Next** through the next few pages and click **Install**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885167-18ef3ac1-9c09-4b72-babf-54a30ec52a52.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 6. Close the **Add Roles and Features Wizard**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885168-2cb451a5-0100-407e-b0ec-8fef1830aae7.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 7. Select **Tools** from the top right side of the **Server Manager Dashboard**, and click **DHCP** from the dropdown menu.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885169-cd1763e6-3689-4240-8474-502209720591.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 8. In the **DHCP** window select your DHCP server by clicking **dc.mydomain.com**. 
+
+<img src="https://user-images.githubusercontent.com/117882385/224885170-e6751edf-ddf7-43d7-b691-088f14012dd4.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 9. Right click **IPv4**, and select **New Scope**. 
+
+<img src="https://user-images.githubusercontent.com/117882385/224885171-02c7e043-20e4-4fac-84c3-249268bed9d3.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 10. In the **New Scope Wizard** window that appears click **Next**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885720-08d4c016-7d80-42bd-ad03-1d1b22c488e0.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 11. On the **Name Scope** page enter the name of the scope in the box next to **Name**, and click **Next**.
     * You can name the scope after what the IP range is (**172.16.0.100-200**)
+
+<img src="https://user-images.githubusercontent.com/117882385/224885722-6245adb6-cb3e-4c0c-b489-16fbcca2d666.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 12. On the **IP Address Range** page enter the following information:
     * **Start IP address:** 172.16.0.100
     * **End IP address:** 172.16.0.200
     * **Length:** 24
     * **Subnet mask:** 255.255.255.0
+
+<img src="https://user-images.githubusercontent.com/117882385/224885723-a49e9ab7-2c87-43f2-a32f-aacf0a3cf281.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 13. Click **Next** to get to the **Add Exclusions and Delay** page.
     * This page allows you to add any IP addresses you don’t want to give out, but you can leave it blank for this lab.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885724-61443dbd-0655-4d67-9236-cac14ae24b8a.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 14. Click **Next** to get to the **Lease Duration** page.
     * This page allows you to set how long a computer can have an IP address before it needs to be refreshed. You can leave it at **8 days** for this lab.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885726-1e5c91fa-473b-4818-8e1a-04edb13d2600.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 15. Click **Next** to reach the **Configure DHCP Options** page, and make sure **Yes, I want to configure these options now** is selected.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885716-d1449ac0-e074-4b18-b2aa-460ec0f1a459.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 16. Click **Next** to reach the **Router(Default Gateway)** page.
+
 17. In the box under **IP address** enter the Domain Controllers IP address (**172.16.0.1**), and click **Add**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224885719-f5c0f8d2-48f7-45ca-a827-bc0d9d827b08.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 18. Click **Next** through the next few pages, and click **Finish**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224886286-50e49358-3f53-4127-a7fc-91faba7a4acd.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224886288-9b5b37b9-d242-48c3-8d80-eb8f233cd44b.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224886290-fdd87289-ccb0-48b3-824c-18f0952a8926.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224886291-fedf92c7-b3ec-4fa7-90c9-350ce077af6d.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224886292-79257cea-66df-4f8f-acdc-2589bae708f7.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+
 19. In the **DHCP** window right click your server (**dc.mydomain.com**), and select **Authorize**.
+
+<img src="https://user-images.githubusercontent.com/117882385/224886692-3100e8ab-35db-4150-bb16-a184a81f6be7.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
 20. Right click the server again, and select **Refresh**.
     * Next to **IPv4** you should now see an icon with a green check mark indicating it is online now.
     * If you click the dropdown arrow next to **IPv4** you should also see the scope you just created.
+
+<img src="https://user-images.githubusercontent.com/117882385/224886693-500b83ad-1ffd-4412-8424-0a17df65bf47.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224886694-177a9a5b-35d3-4296-8682-681a2aa31f1e.jpg" height="80%" width="80%" alt="Routing Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/224886688-30cdf92d-1d6d-486d-8136-dae975ca1ab9.jpg" height="80%" width="80%" alt="Routing Installation"/>
 
 ### Part 11: Use PowerShell Script to Create Users
 
