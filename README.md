@@ -673,19 +673,44 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. From the **Server Manager Dashboard**, click **Configure this local server**.
 
-<img src="#" width="80%" alt="Routing Installation"/>
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
 
 2. Next to **IE Enhanced Security Configuration**, click **On**.
 
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
 
 3. Select **Off** under **Administrators and Users**. 
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 4. Open **Microsoft Edge**, and click **Get Started**.
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 5. Click **Continue**, and **Continue without signing in**. 
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 6. Download the PowerShell script using the following link: https://github.com/joshmadakor1/AD_PS/archive/refs/heads/master.zip
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 7. Open **File Explorer** and click the **Downloads** folder. 
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 8. Open the **AD_PS-master.zip** file.
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 9. Drag the **AD_PS-master** folder to the desktop.
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 10. Open then **AD_PS-master** folder. You will see a PowerShell script file named **1_CREATE_USERS** and a text file named **names**.
+
+<img src="#" width="80%" alt="User Creation with Powershell Script"/>
+
 11. Open the **names** file, and add your name at the top of the file.
     * This file contains about 1000 randomized users that will be added to Active Directory once you run the PowerShell script.
 12. Click **Start**, and select **Windows PowerShell**.
