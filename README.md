@@ -891,6 +891,16 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 19. Hit **enter** to open **Command Prompt**.
 20. Type **whoami**, and hit **enter** to see that the **CLIENT1** computer has been joined to the domain.
 
+### Part 15: Check the Domain Controller to See the Client Computer You Joined to the Domain
+
+1. Go back to the **DC** VM which should still be running.
+2. Log in again with the admin account you created in Active Directory.
+3. Pull up the **DHCP** window.
+4. Click the dropdown arrow next to the scope you created.
+5. Click **Address Leases**, and you should see the **CLIENT1** computer that you joined with the domain listed.
+6. Pull up the **Active Directory Users and Computers** window.
+7. Click **Computers**, and you should see the **CLIENT1** computer listed.
+
 
 <!--
  ```diff
