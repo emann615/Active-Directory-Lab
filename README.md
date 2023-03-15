@@ -940,7 +940,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/225437561-1300d694-7981-4157-87b5-07e14818e853.jpg" width="80%" alt="Windows 10 Setup"/>
 
-23. Click **Next** on the last screen, and Windows will finish setting up before loading the desktop.
+23. Click **Not now** on the last screen, and Windows will finish setting up before loading the desktop.
 
 <img src="https://user-images.githubusercontent.com/117882385/225437562-e087e17b-b649-451b-8911-c8251bf0b4e9.jpg" width="80%" alt="Windows 10 Setup"/>
 
