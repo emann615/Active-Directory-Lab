@@ -955,31 +955,88 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 ### Part 14: Rename the PC and Join the Domain
 
 1. Click the search box next to **Start** and type **cmd**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441861-bb342d55-712c-458e-944b-f8025dfe39a4.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 2. Hit **enter** to open **Command Prompt**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441862-b343ad0a-ceae-4b1a-b409-bc4a4971105b.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 3. Type **ipconfig** and hit **enter** to see the IP address settings.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441863-bc3306df-9aa1-4257-a190-2417078bf66b.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 4. Look for the following information to make sure IP addressing is working properly:
    * **Connection-specific DNS suffix:** mydomain.com
    * **IPV4 Address:** 172.16.0.100
    * **Subnet Mask:** 255.255.255.0
    * **Default Gateway:** 172.16.0.1
+
+<img src="https://user-images.githubusercontent.com/117882385/225441865-27fd0f54-5c5c-4a89-9dd9-34ef901c56e6.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 5. Click **Start**, and select **System**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441868-8b955070-cd92-46ce-ac8d-e6ba8c11cf20.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 6. Scroll down, and click **Rename this PC (advanced)**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441870-87c608b3-1317-43bd-9323-6ba739a38b6b.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 7. Once the **System Properties** window appears, click **Change**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441873-3f940727-ce0d-4b7d-afdb-36a41346cc62.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 8. In the box under **Computer name**, replace the current name with **CLIENT1**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441876-8aec00fb-09a3-4a7a-a2ab-d22c8e926d9f.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 9. In the **Member of** section, select **Domain**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441877-4b44a56d-4eda-4996-a635-92a4f15caf60.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 10. In the box under **Domain**, type **mydomain.com**, and click **OK**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441880-2ee9584a-46f6-4750-b976-e145c9f441d8.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 11. Enter the username and password of the admin account you created in Active Directory, and click **OK**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441883-c44dd5ea-e143-4953-8fff-189fc111c96b.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 12. A window will appear with a message that says '**Welcome to the mydomain.com domain**'. Click **OK**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441885-3a8bca6a-c68c-4dcd-a0e8-1fc81bb3d60e.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 13. Another window will appear with a message that says '**You must restart your computer to apply these changes**'. Click **OK**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441886-2e8c089a-5839-442a-b39e-8469751d06e9.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 14. Click **Close** at the bottom of the **System Properties** window.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441888-980e0147-57d0-4542-949a-9866bdcd7b07.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 15. Click **Restart now**, and your **CLIENT1** VM will restart.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441891-218ee3da-d58e-482e-a4e7-92210bbd8d19.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 16. Once your VM has restarted, select **Other user** on the login screen.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441895-4590ee6f-04b0-407d-b575-0a3d821c5f61.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 17. Log in with one of the user accounts you created with the Powershell script.
     * You can use any of the user logins that were created, including your own.
     * The password for all the user accounts is '**Password1**'.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441896-778bc21c-1b45-47f0-b438-ff5a482d8a58.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 18. Click the search box next to **Start** and type **cmd**.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441897-ee0654a4-ab68-4dc8-8186-dea4dd7c9bb7.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
+
 19. Hit **enter** to open **Command Prompt**.
+
 20. Type **whoami**, and hit **enter** to see that the **CLIENT1** computer has been joined to the domain.
+
+<img src="https://user-images.githubusercontent.com/117882385/225441856-ef195c3b-b827-4489-bd45-800346179002.jpg" width="80%" alt="Rename the PC and Join the Domain"/>
 
 ### Part 15: Check the Domain Controller to See the Client Computer You Joined to the Domain
 
