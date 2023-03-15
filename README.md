@@ -8,14 +8,14 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 ## Languages and Utilities Used
 
-- <b>VirtualBox</b> 
-- <b>Active Directory</b>
-- <b>PowerShell</b>
+* **VirtualBox** 
+* **Active Directory**
+* **PowerShell**
 
 ## Environments Used
 
-- <b>Windows 10</b>
-- <b>Windows Server 2022</b>
+* **Windows 10**
+* **Windows Server 2022**
 
 ## Table of Contents:
 
