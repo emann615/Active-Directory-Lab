@@ -14,7 +14,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 ## Environments Used
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b>
 - <b>Windows Server 2022</b>
 
 ## Table of Contents:
@@ -40,7 +40,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 ### Part 1: Install VirtualBox
 
 1. Download **VirtualBox** by going to the following link: https://www.virtualbox.org/wiki/Downloads
-   - Download the version for whatever OS you are using.
+   * Download the version for whatever OS you are using.
 
 <img src="https://user-images.githubusercontent.com/117882385/224390278-d7e4222c-6e2c-4eb8-8d43-ec41a3b8ec11.jpg" height="80%" width="80%" alt="VirtualBox Download"/>
 
