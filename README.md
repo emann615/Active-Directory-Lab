@@ -836,32 +836,103 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 1. Double click the **CLIENT1** virtual machine, and it will start in a new window that appears.
    * Once it has loaded a box will appear that says your virtual machine failed to boot. This is because you have not installed the actual operating system yet.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 2. Click the dropdown arrow in the box next to **DVD**, and navigate to the folder where you downloaded the **Windows 10 ISO**.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 3. Select the **Windows 10 ISO** file, and click **Mount and Retry Boot** to restart your virtual machine.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 4. Once your VM restarts, the **Windows Setup** tool will appear. Click **Next** and **Install** now.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 5. Click **I don’t have a product key**.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 6. On the next screen, select **Windows 10 Pro**, and click **Next**.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 7. Click the checkbox next to **I accept the license terms**, and click **Next**.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 8. Select **Custom: Install Windows only (advanced)** since this is the first time you are installing Windows on this machine.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 9. Click **Next**, and the tool will install **Windows 10** on your machine.
    * During installation your virtual machine will restart several times. You will see a black screen that says '**Press any key to boot from CD or DVD**'. Just do not press any buttons until your machine has booted into Windows.
+
+<img src="#" width="80%" alt="Windows 10 Installation"/>
+
 10. Once your virtual machine has booted into Windows, select your country.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 11. Select your keyboard layout, and click **Yes**.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 12. Click **Skip** to skip adding a second keyboard layout.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 13. Select **Set up for personal use**, and click **Next**.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 14. Enter your email, and click **Next**.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 15. Click **Email code** to have a login code sent to your email
     * You might be able to log in with your password, but it always makes me validate my account with an email code anyway.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 16. Enter the code that was sent to your email, and click **Next**.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 17. Click **Create PIN**.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 18. Enter a PIN number, and click **OK**.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 19. Set all the settings to **No**, and click **Accept**.
     * You can leave **Yes** for all the settings, but they are not required since this is just a lab.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 20. Click **Skip** and **No, thanks** on the next two screens.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 21. Click **Decline** on the next two screens.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 22. Click **Next** and **No thanks** on the next two screens.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 23. Click **Next** on the last screen, and Windows will finish setting up before loading the desktop.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
+
 24. When asked '**Do you want to allow your PC to be discoverable by other PCs and devices on this network?**', click **Yes**.
+
+<img src="#" width="80%" alt="Windows 10 Setup"/>
 
 ### Part 14: Rename the PC and Join the Domain
 
