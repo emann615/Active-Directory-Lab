@@ -33,6 +33,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
    * [Part 12: Create Client Virtual Machine](#part-12-create-client-virtual-machine)
    * [Part 13: Install and Set Up Windows 10 on the Client Virtual Machine](#part-13-install-and-set-up-windows-10-on-the-client-virtual-machine)
    * [Part 14: Rename the PC and Join the Domain](#part-14-rename-the-pc-and-join-the-domain)
+   * [Part 15: Check the Domain Controller to See the Client Computer You Joined to the Domain](#part-15-check-the-domain-controller-to-see-the-client-computer-you-joined-to-the-domain)
 
 ## Walk-through:
 
