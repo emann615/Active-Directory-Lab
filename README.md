@@ -864,35 +864,32 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 ### Part 14: Rename the PC and Join the Domain
 
-1. Click the search box next to Start and type cmd.
-2. Hit enter to open Command Prompt.
-3. Type ipconfig and hit enter to see the IP address settings.
+1. Click the search box next to **Start** and type **cmd**.
+2. Hit **enter** to open **Command Prompt**.
+3. Type **ipconfig** and hit **enter** to see the IP address settings.
 4. Look for the following information to make sure IP addressing is working properly:
-   * Connection-specific DNS suffix: mydomain.com
-   * IPV4 Address: 172.16.0.100
-   * Subnet Mask: 255.255.255.0
-   * Default Gateway: 172.16.0.1
-5. Click Start, and select System.
-6. Scroll down, and click Rename this PC (advanced).
-7. Once the System Properties window appears, click Change.
-8. In the box under Computer name, replace the current name with CLIENT1.
-9. In the Member of section, select Domain.
-10. In the box under Domain, type mydomain.com, and click OK.
-11. Enter the username and password of the admin account you created in Active Directory, and click OK.
-12. A window will appear with a message that says ‘Welcome to the mydomain.com domain’. Click OK.
-13. Another window will appear with a message that says ‘You must restart your computer to apply these changes’. Click OK.
-14. Click Close at the bottom of the System Properties window.
-15. Click Restart now, and your CLIENT1 VM will restart.
-16. Once your VM has restarted, select Other user on the login screen.
-17. Log in with one of the user accounts you created with the Powershell Script.
+   * **Connection-specific DNS suffix:** mydomain.com
+   * **IPV4 Address:** 172.16.0.100
+   * **Subnet Mask:** 255.255.255.0
+   * **Default Gateway:** 172.16.0.1
+5. Click **Start**, and select **System**.
+6. Scroll down, and click **Rename this PC (advanced)**.
+7. Once the **System Properties** window appears, click **Change**.
+8. In the box under **Computer name**, replace the current name with **CLIENT1**.
+9. In the **Member of** section, select **Domain**.
+10. In the box under **Domain**, type **mydomain.com**, and click **OK**.
+11. Enter the username and password of the admin account you created in Active Directory, and click **OK**.
+12. A window will appear with a message that says '**Welcome to the mydomain.com domain**'. Click **OK**.
+13. Another window will appear with a message that says '**You must restart your computer to apply these changes**'. Click **OK**.
+14. Click **Close** at the bottom of the **System Properties** window.
+15. Click **Restart now**, and your **CLIENT1** VM will restart.
+16. Once your VM has restarted, select **Other user** on the login screen.
+17. Log in with one of the user accounts you created with the Powershell script.
     * You can use any of the user logins that were created, including your own.
-    * The password for all the user accounts is ‘Password1’.
-18. Click the search box next to Start and type cmd.
-19. Hit enter to open Command Prompt.
-20. Type whoami, and hit enter to see that the CLIENT1 computer has been joined to the domain.
-
-
-
+    * The password for all the user accounts is '**Password1**'.
+18. Click the search box next to **Start** and type **cmd**.
+19. Hit **enter** to open **Command Prompt**.
+20. Type **whoami**, and hit **enter** to see that the **CLIENT1** computer has been joined to the domain.
 
 
 <!--
