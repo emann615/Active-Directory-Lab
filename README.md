@@ -837,102 +837,120 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 1. Double click the **CLIENT1** virtual machine, and it will start in a new window that appears.
    * Once it has loaded a box will appear that says your virtual machine failed to boot. This is because you have not installed the actual operating system yet.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225430900-e714252b-e8fd-43b6-a1fd-13c5810ff0a8.jpg" width="80%" alt="Windows 10 Installation"/>
 
 2. Click the dropdown arrow in the box next to **DVD**, and navigate to the folder where you downloaded the **Windows 10 ISO**.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225430902-cdf82bcf-e638-4dcc-be53-b42a2fbeb8f7.jpg" width="80%" alt="Windows 10 Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225430905-43a9a91d-2d54-46ef-9b0f-1ea4d6f69bdc.jpg" width="80%" alt="Windows 10 Installation"/>
 
 3. Select the **Windows 10 ISO** file, and click **Mount and Retry Boot** to restart your virtual machine.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225430907-f62aef51-c3e5-40f4-9561-11960aa65d39.jpg" width="80%" alt="Windows 10 Installation"/>
 
 4. Once your VM restarts, the **Windows Setup** tool will appear. Click **Next** and **Install** now.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225430909-595ec0b6-484b-4f06-9371-f2b415ba2ab9.jpg" width="80%" alt="Windows 10 Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225430910-adb04223-0440-4c48-98ab-101d7a85cdcf.jpg" width="80%" alt="Windows 10 Installation"/>
 
 5. Click **I don’t have a product key**.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225430886-dff70dd0-0943-4638-8773-499d04531f41.jpg" width="80%" alt="Windows 10 Installation"/>
 
 6. On the next screen, select **Windows 10 Pro**, and click **Next**.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225430894-d3bbb4bc-d776-4b68-9514-70d4a33af926.jpg" width="80%" alt="Windows 10 Installation"/>
 
 7. Click the checkbox next to **I accept the license terms**, and click **Next**.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225430895-12471dc1-96bd-4989-bbc6-4d2c2e1d5804.jpg" width="80%" alt="Windows 10 Installation"/>
 
 8. Select **Custom: Install Windows only (advanced)** since this is the first time you are installing Windows on this machine.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434824-f5d35f4c-02b3-418d-aeaf-2f3422eddf57.jpg" width="80%" alt="Windows 10 Installation"/>
 
 9. Click **Next**, and the tool will install **Windows 10** on your machine.
    * During installation your virtual machine will restart several times. You will see a black screen that says '**Press any key to boot from CD or DVD**'. Just do not press any buttons until your machine has booted into Windows.
 
-<img src="#" width="80%" alt="Windows 10 Installation"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434825-454f2a98-78fa-4dab-b845-3f82d85f3132.jpg" width="80%" alt="Windows 10 Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225434831-3b9d33f2-34da-4dcd-b814-41e0d1425d59.jpg" width="80%" alt="Windows 10 Installation"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225434832-4e04f5cd-ef69-41cc-a16d-3e8145c539e9.jpg" width="80%" alt="Windows 10 Installation"/>
 
 10. Once your virtual machine has booted into Windows, select your country.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434833-f1847827-40cf-489f-a01f-0ebfcfb45157.jpg" width="80%" alt="Windows 10 Setup"/>
 
 11. Select your keyboard layout, and click **Yes**.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434834-db4d6d94-8971-4d9d-892b-9174e5021827.jpg" width="80%" alt="Windows 10 Setup"/>
 
 12. Click **Skip** to skip adding a second keyboard layout.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434836-8b022f26-fa23-48c2-8200-77943eea4750.jpg" width="80%" alt="Windows 10 Setup"/>
 
 13. Select **Set up for personal use**, and click **Next**.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434838-b5a3d1f9-a069-4b8d-812f-b59fa2ce90e0.jpg" width="80%" alt="Windows 10 Setup"/>
 
 14. Enter your email, and click **Next**.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434811-50bc7cea-0a2f-458c-8624-b5c4d6f01228.jpg" width="80%" alt="Windows 10 Setup"/>
 
 15. Click **Email code** to have a login code sent to your email
     * You might be able to log in with your password, but it always makes me validate my account with an email code anyway.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434819-9cae1012-eb75-4214-9143-8084eae52436.jpg" width="80%" alt="Windows 10 Setup"/>
 
 16. Enter the code that was sent to your email, and click **Next**.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434821-a9277417-42bb-4b74-b8bf-70dbc6f15692.jpg" width="80%" alt="Windows 10 Setup"/>
 
 17. Click **Create PIN**.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225434823-66a8e698-bea2-4591-be4f-2e9c51f69cb8.jpg" width="80%" alt="Windows 10 Setup"/>
 
 18. Enter a PIN number, and click **OK**.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225437541-d5794319-4344-4410-9423-98b1bed8ce4b.jpg" width="80%" alt="Windows 10 Setup"/>
 
 19. Set all the settings to **No**, and click **Accept**.
     * You can leave **Yes** for all the settings, but they are not required since this is just a lab.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225437543-f6bee60d-f345-40f2-a317-5ad086c78345.jpg" width="80%" alt="Windows 10 Setup"/>
 
 20. Click **Skip** and **No, thanks** on the next two screens.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225437545-42f6c72c-922c-4bf3-9ca3-da8a950fedbf.jpg" width="80%" alt="Windows 10 Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225437548-7e651418-ce2a-46cb-85b4-14784ccf8936.jpg" width="80%" alt="Windows 10 Setup"/>
 
 21. Click **Decline** on the next two screens.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225437551-d2585dcb-a989-45a4-88ab-0219281f3d91.jpg" width="80%" alt="Windows 10 Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225437555-700091d5-4d25-4b50-9fcc-23cbc4795c91.jpg" width="80%" alt="Windows 10 Setup"/>
 
 22. Click **Next** and **No thanks** on the next two screens.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225437557-7c621f79-04f8-4c70-b7a9-34509519c19c.jpg" width="80%" alt="Windows 10 Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225437561-1300d694-7981-4157-87b5-07e14818e853.jpg" width="80%" alt="Windows 10 Setup"/>
 
 23. Click **Next** on the last screen, and Windows will finish setting up before loading the desktop.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225437562-e087e17b-b649-451b-8911-c8251bf0b4e9.jpg" width="80%" alt="Windows 10 Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225437534-f2bf53f0-5af1-4164-bf13-887255d58b86.jpg" width="80%" alt="Windows 10 Setup"/>
+
+<img src="https://user-images.githubusercontent.com/117882385/225437536-9faa952c-b50b-4e33-bbc8-cbae5dbce363.jpg" width="80%" alt="Windows 10 Setup"/>
 
 24. When asked '**Do you want to allow your PC to be discoverable by other PCs and devices on this network?**', click **Yes**.
 
-<img src="#" width="80%" alt="Windows 10 Setup"/>
+<img src="https://user-images.githubusercontent.com/117882385/225437538-fbe6988a-39dd-4782-89dc-fa86f58950aa.jpg" width="80%" alt="Windows 10 Setup"/>
 
 ### Part 14: Rename the PC and Join the Domain
 
