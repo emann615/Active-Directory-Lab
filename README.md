@@ -1041,13 +1041,32 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 ### Part 15: Check the Domain Controller to See the Client Computer You Joined to the Domain
 
 1. Go back to the **DC** VM which should still be running.
+
+<img src="https://user-images.githubusercontent.com/117882385/225445058-8b1e2336-3efa-4504-a648-0611da676d48.jpg" width="80%" alt="Checking Domain Controller"/>
+
 2. Log in again with the admin account you created in Active Directory.
+
+<img src="https://user-images.githubusercontent.com/117882385/225445064-58575691-d350-4d2b-a79a-121d7071d8ae.jpg" width="80%" alt="Checking Domain Controller"/>
+
 3. Pull up the **DHCP** window.
+
+<img src="https://user-images.githubusercontent.com/117882385/225445068-2cb7185e-9bb1-4f4c-b3b2-858a2fb89c0b.jpg" width="80%" alt="Checking Domain Controller"/>
+
 4. Click the dropdown arrow next to the scope you created.
+
+<img src="https://user-images.githubusercontent.com/117882385/225445073-19260dbd-0dd6-4993-bb39-9c2ef2534e2d.jpg" width="80%" alt="Checking Domain Controller"/>
+
 5. Click **Address Leases**, and you should see the **CLIENT1** computer that you joined with the domain listed.
+
+<img src="https://user-images.githubusercontent.com/117882385/225445077-290d55b4-caf9-4010-8614-b9b40940c3b3.jpg" width="80%" alt="Checking Domain Controller"/>
+
 6. Pull up the **Active Directory Users and Computers** window.
+
+<img src="https://user-images.githubusercontent.com/117882385/225445080-c22ecd5b-ffc2-4f8f-bb55-bab0d0ee16b2.jpg" width="80%" alt="Checking Domain Controller"/>
+
 7. Click **Computers**, and you should see the **CLIENT1** computer listed.
 
+<img src="https://user-images.githubusercontent.com/117882385/225445084-572758c7-fd53-4bf1-b6f0-087c98baf69e.jpg" width="80%" alt="Checking Domain Controller"/>
 
 <!--
  ```diff
