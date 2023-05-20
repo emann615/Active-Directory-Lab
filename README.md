@@ -1,4 +1,4 @@
-# Active Directory Home Lab
+# Basic Home Lab Running Active Directory
 
  ### [YouTube Demonstration](https://www.youtube.com/watch?v=_r7OhxCgxOo&t=2s)
 
