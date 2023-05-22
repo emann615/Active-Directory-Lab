@@ -48,7 +48,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 
 <img src="https://user-images.githubusercontent.com/117882385/224393765-d360956a-1bce-4199-830a-830e4551c8f8.jpg" height="80%" width="80%" alt="VirtualBox Extension Pack Download"/>
 
-4. Open the files you downloaded to install **VirtualBox** and the **VirtualBox Extension Pack**.
+3. Open the files you downloaded to install **VirtualBox** and the **VirtualBox Extension Pack**.
 
 ### Part 2: Download Windows 10 and Windows Server 2022 ISO Files
 
