@@ -6,19 +6,10 @@
 Active Directory (AD) is a directory service created by Microsoft that runs on Windows Servers. It allows administrators to control what access and permissions users and computers have on a domain network. In this tutorial, I will show you how to set up an Active Directory home lab using Oracle VM VirtualBox and Windows Server 2022.
 <br />
 
-## Languages and Utilities Used
-
-* **VirtualBox** 
-* **Active Directory**
-* **PowerShell**
-
-## Environments Used
-
-* **Windows 10**
-* **Windows Server 2022**
-
 ## Table of Contents:
 
+   * [Languages and Utilities Used](#languages-and-utilities-used)
+   * [Environments Used](#environments-used)
    * [Part 1: Install VirtualBox](#part-1-install-virtualbox)
    * [Part 2: Download Windows 10 and Windows Server 2022 ISO Files](#part-2-download-windows-10-and-windows-server-2022-iso-files)
    * [Part 3: Create Domain Controller Virtual Machine](#part-3-create-domain-controller-virtual-machine)
@@ -34,6 +25,17 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
    * [Part 13: Install and Set Up Windows 10 on the Client Virtual Machine](#part-13-install-and-set-up-windows-10-on-the-client-virtual-machine)
    * [Part 14: Rename the PC and Join the Domain](#part-14-rename-the-pc-and-join-the-domain)
    * [Part 15: Find the Client Computer on the Domain Controller](#part-15-find-the-client-computer-on-the-domain-controller)
+
+## Languages and Utilities Used
+
+* **VirtualBox** 
+* **Active Directory**
+* **PowerShell**
+
+## Environments Used
+
+* **Windows 10**
+* **Windows Server 2022**
 
 ## Walk-through:
 
