@@ -37,7 +37,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 * **Windows 10**
 * **Windows Server 2022**
 
-## Walk-through:
+## Walk-Through:
 
 ### Part 1: Install VirtualBox
 
