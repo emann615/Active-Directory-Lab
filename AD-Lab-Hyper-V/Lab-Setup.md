@@ -28,7 +28,7 @@ After Hyper-V was installed and enabled, I downloaded Microsoft’s lab environm
 
 Before installing the lab environment, I had to open Hyper-V and create a new virtual network switch.
 
-<img src="" height="80%" width="80%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/5b87f157-c8b1-422b-af3a-67bc6cf00925" height="80%" width="80%" alt="#"/>
 
 After creating the virtual network switch, I opened the folder where I downloaded the lab environment and executed the stetup.exe file to install the virtual machines.
 
