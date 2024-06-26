@@ -8,7 +8,7 @@ Active Directory (AD) is a directory service created by Microsoft that runs on W
 I used Windows Hyper-V to provision and deploy all the virtual machines needed for the lab.
 First, I had to make sure virtualization was enabled on my laptop. I opened Task Manager and went to the Performance tab. Next to Virtualization, I made sure it said Enabled. 
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/09c84ac1-a43a-4809-a920-c024137e1324" height="10%" width="10%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/09c84ac1-a43a-4809-a920-c024137e1324" height="30%" width="30%" alt="#"/>
 
 If virtualization was disabled, it would have been necessary to go into the BOIS settings to enable it, but fortunately it was already enabled.
 
