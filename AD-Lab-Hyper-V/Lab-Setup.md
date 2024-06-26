@@ -1,11 +1,10 @@
 # AD Lab Setup Using Hyper-V
 
 ## Description
-Active Directory (AD) is a directory service created by Microsoft that runs on Windows Servers. It allows administrators to control what access and permissions users and computers have on a domain network. In this tutorial, I will show you how to set up an Active Directory home lab using Oracle VM VirtualBox and Windows Server 2022.
+Active Directory (AD) is a directory service created by Microsoft that runs on Windows Servers. It allows administrators to control what access and permissions users and computers have on a domain network. In this tutorial, I will show you how to set up an Active Directory home lab using Microsoft Hyper-V.
 <br />
 
 ## Walk-Through:
-I used Windows Hyper-V to provision and deploy all the virtual machines needed for the lab.
 First, I had to make sure virtualization was enabled on my laptop. I opened Task Manager and went to the Performance tab. Next to Virtualization, I made sure it said Enabled. 
 
 <img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/09c84ac1-a43a-4809-a920-c024137e1324" height="20%" width="20%" alt="#"/>
