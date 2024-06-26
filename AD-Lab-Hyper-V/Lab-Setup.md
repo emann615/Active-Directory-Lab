@@ -18,7 +18,7 @@ Next, I clicked the start icon and typed in “windows features”. I selected �
 
 In the Windows Feature window I made sure the box next to Hyper-V was checked. 
 
-<img src="" height="80%" width="80%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/78119afe-310d-4d02-976e-20f807c928da" height="30%" width="30%" alt="#"/>
 
 Originally there was no option to enable Hyper-V because my laptop is running on Windows 11 Home Edition, which does not come with Hyper-V included. I followed the steps in the video here to install Hyper-V.
 
