@@ -32,7 +32,7 @@ Before installing the lab environment, I had to open Hyper-V and create a new vi
 
 After creating the virtual network switch, I opened the folder where I downloaded the lab environment and executed the stetup.exe file to install the virtual machines.
 
-<img src="" height="80%" width="80%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/806c4898-60b3-4234-9dd9-f364b06fb554" height="80%" width="80%" alt="#"/>
 
 Once the installation finished, I could see all the virtual machines were now loaded into Hyper-V.
 
