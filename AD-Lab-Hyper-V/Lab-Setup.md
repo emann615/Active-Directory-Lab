@@ -24,7 +24,7 @@ Originally there was no option to enable Hyper-V because my laptop is running on
 
 After Hyper-V was installed and enabled, I downloaded Microsoft’s lab environment linked here. Once the lab environment finished downloading, I extracted the files to the Lab folder on my desktop.
 
-<img src="" height="80%" width="80%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/e05262c9-480b-4690-a332-2b4b4a2a6693" height="40%" width="40%" alt="#"/>
 
 Before installing the lab environment, I had to open Hyper-V and create a new virtual network switch.
 
