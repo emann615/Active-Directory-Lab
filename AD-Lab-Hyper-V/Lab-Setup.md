@@ -14,7 +14,7 @@ If virtualization was disabled, it would have been necessary to go into the BOIS
 
 Next, I clicked the start icon and typed in “windows features”. I selected “Turn Windows features on and off” from the results.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/2a38176e-21bc-4131-880a-fa246d70b093" height="50%" width="50%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/2a38176e-21bc-4131-880a-fa246d70b093" height="30%" width="30%" alt="#"/>
 
 In the Windows Feature window I made sure the box next to Hyper-V was checked. 
 
