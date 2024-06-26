@@ -36,3 +36,5 @@ After creating the virtual network switch, I opened the folder where I downloade
 Once the installation finished, I could see all the virtual machines were now loaded into Hyper-V.
 
 <img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/b07d140c-52d6-4e56-934a-5201bd217158" height="30%" width="30%" alt="#"/>
+
+In the next section of the lab, I joined one of the client VM's to the domain in Active Directory.
