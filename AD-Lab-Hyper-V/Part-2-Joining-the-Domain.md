@@ -1,3 +1,9 @@
+# Part 1: AD Lab Setup Using Hyper-V
+
+## Description
+In this section of the lab, I joind CLIENT4 to the corp.contoso.com domain.
+
+## Walk-Through:
 To start, I had two VMs running, my domain controller (DC1) running Windows Server 2022 and a client machine (CLIENT4) running Windows 11.
 The CLIENT4 machine was not joined to the domain and could not access any of the domain resources. I could only log in with a local user account.
 To join the domain, I logged in to the CLIENT4 machine using admin credentials.
