@@ -27,9 +27,13 @@ I selected the B volume as the storage location for the shadow copies and adjust
 ### Creating Security Groups
 
 Once I had the folders set up, it was time to set the folder permissions for each department.
+
 I only wanted users that belonged to a specific department to have access to the corresponding folder on the shared drive.
+
 I opened Active Directory Users and Computers on my domain controller (DC1) and created a new security group in each department’s OU (Ex. Finance Department S Drive Access).
+
 Next, I added the user in each department to their corresponding security group.
+
 *** John Smith > Finance Department S Drive Access
 *** Sarah Woods > HR Department S Drive Access
 *** James Brown > IT Department S Drive Access
