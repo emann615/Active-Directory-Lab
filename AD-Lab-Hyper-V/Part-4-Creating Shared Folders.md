@@ -35,9 +35,9 @@ I opened Active Directory Users and Computers on my domain controller (DC1) and 
 Next, I added the user in each department to their corresponding security group.
 
 * John Smith > Finance Department S Drive Access
-*** Sarah Woods > HR Department S Drive Access
-*** James Brown > IT Department S Drive Access
-*** Rachel Williams > Marketing Department S Drive Access
+* Sarah Woods > HR Department S Drive Access
+* James Brown > IT Department S Drive Access
+* Rachel Williams > Marketing Department S Drive Access
 
 ### Setting Folder Permissions
 
