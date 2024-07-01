@@ -1,6 +1,6 @@
 # Part 1: AD Lab Setup Using Hyper-V
 
-## Description
+## Description:
 Active Directory (AD) is a directory service created by Microsoft that runs on Windows Servers. It allows administrators to control what access and permissions users and computers have on a domain network. In this tutorial, I will show you how to set up an Active Directory home lab using Microsoft Hyper-V and the Windows 11 and Office 365 Deployment Lab Kit .
 
 ## Walk-Through:
