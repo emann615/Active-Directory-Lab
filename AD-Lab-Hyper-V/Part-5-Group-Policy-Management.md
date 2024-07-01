@@ -69,7 +69,7 @@ I opened Windows Defender Firewall Properties and updated the settings for the D
    * Allow unicast response: Yes
    * Apply local firewall rules: Yes
    * Apply local connection security rules: Yes
-   * 
+
 Next, I selected Inbound Rules to configure the rules I needed for remote management.
 
 I right clicked in the window that opened and selected New rule.
