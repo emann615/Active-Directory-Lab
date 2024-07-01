@@ -1,6 +1,6 @@
 # Part 1: AD Lab Setup Using Hyper-V
 
-## Description
+## Description:
 In this section of the lab, I joined CLIENT4 to the corp.contoso.com domain. When a computer joins a domain, it becomes a member of the domain and gains access to shared files, printers, and other network resources. 
 
 ## Walk-Through:
