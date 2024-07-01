@@ -32,7 +32,9 @@ I right clicked on the Finance OU and selected New > User.
 
 I filled out the First name, Last name, and User logon name fields and clicked Next.
 
-On the next screen, I entered a password for the user account. Since this is just a lab, I unchecked the box next to “User must change password at next logon” and checked the box next to "Password never expires”.
+On the next screen, I entered a password for the user account. 
+
+Since this is just a lab, I unchecked the box next to “User must change password at next logon” and checked the box next to "Password never expires”.
 
 I repeated the process to create a user account in each department’s OU.
 
