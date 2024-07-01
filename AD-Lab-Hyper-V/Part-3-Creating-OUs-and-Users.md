@@ -11,7 +11,9 @@ With Active Directory Users and Computers open, I clicked the arrow next to the 
 
 I expanded the CORP OU and saw there were four additional OU’s inside it, one of which was named USERS.
 
-Inside the USERS OU there were four test user accounts that came loaded in by default with the lab environment, but I wanted to create some additional user accounts to use for the lab. I also wanted to separate the users into different departments, so I decided to create additional OU’s inside the USERS OU.
+Inside the USERS OU there were four test user accounts that came loaded in by default with the lab environment, but I wanted to create some additional user accounts to use for the lab. 
+
+I also wanted to separate the users into different departments, so I decided to create additional OU’s inside the USERS OU.
 
 ### Creating OUs
 I right clicked on the USERS OU and selected New > Organizational Unit.
