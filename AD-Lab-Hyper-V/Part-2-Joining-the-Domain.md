@@ -30,11 +30,11 @@ After clicking OK, I had to enter the admin credentials. Then a window popped up
 
 Next, I had to restart the CLIENT4 machine to apply the changes. After the CLIENT4 machine booted back up, I was able to log on with a domain user account.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/11d439fc-238f-43fe-875e-79aedadaa119" height="50%" width="50%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/11d439fc-238f-43fe-875e-79aedadaa119" height="40%" width="40%" alt="#"/>
 
 On the DC1 machine, I could see CLIENT4 was added to Active Directory Users and Computers under the domain.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/88d4ce47-db81-4d19-8e9d-d656b3e9c432" height="40%" width="40%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/88d4ce47-db81-4d19-8e9d-d656b3e9c432" height="50%" width="50%" alt="#"/>
 
 The computer was also assigned an IP address through DHCP.
 
