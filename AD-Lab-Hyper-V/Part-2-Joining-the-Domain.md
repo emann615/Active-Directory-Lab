@@ -6,6 +6,8 @@ In this section of the lab, I joined CLIENT4 to the corp.contoso.com domain. Whe
 ## Walk-Through:
 To start, I had two VMs running, my domain controller (DC1) running Windows Server 2022 and a client machine (CLIENT4) running Windows 11.
 
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/54908056-a386-4038-acaf-be3b6b2482b2" height="80%" width="80%" alt="#"/>
+
 The CLIENT4 machine was not joined to the domain and could not access any of the domain resources. I could only log in with a local user account.
 
 To join the domain, I logged in to the CLIENT4 machine using admin credentials.
