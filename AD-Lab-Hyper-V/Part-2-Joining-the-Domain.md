@@ -10,7 +10,7 @@ To start, I had two VMs running, my domain controller (DC1) running Windows Serv
 
 The CLIENT4 machine was not joined to the domain and could not access any of the domain resources. I could only log in with a local user account.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/f593d408-410e-4052-9189-ecb4edf95c47" height="70%" width="70%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/f593d408-410e-4052-9189-ecb4edf95c47" height="60%" width="60%" alt="#"/>
 
 To join the domain, I logged in to the CLIENT4 machine using admin credentials.
 
