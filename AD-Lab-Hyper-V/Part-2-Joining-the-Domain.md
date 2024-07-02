@@ -40,4 +40,4 @@ On the DC1 machine, I could see CLIENT4 was added to Active Directory Users and 
 
 The computer was also assigned an IP address through DHCP.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/6e8236fd-6752-45ab-80ef-94e3af029f3c" height="70%" width="70%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/6e8236fd-6752-45ab-80ef-94e3af029f3c" height="60%" width="60%" alt="#"/>
