@@ -34,7 +34,7 @@ Next, I had to restart the CLIENT4 machine to apply the changes. After the CLIEN
 
 On the DC1 machine, I could see CLIENT4 was added to Active Directory Users and Computers under the domain.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/88d4ce47-db81-4d19-8e9d-d656b3e9c432" height="50%" width="50%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/88d4ce47-db81-4d19-8e9d-d656b3e9c432" height="40%" width="40%" alt="#"/>
 
 The computer was also assigned an IP address through DHCP.
 
