@@ -18,11 +18,11 @@ To join the domain, I logged in to the CLIENT4 machine using admin credentials. 
 
 In the System Properties window that opened, I selected the Computer Name tab and clicked Change.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/c028e4bd-50b3-4540-971d-7a64a3d5d0ba" height="50%" width="50%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/c028e4bd-50b3-4540-971d-7a64a3d5d0ba" height="40%" width="40%" alt="#"/>
 
 Under the Member of section, I selected the circle next to Domain and entered the domain name.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/59d62f1b-b2b5-480c-99e0-dc4c6e8cf810" height="70%" width="70%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/59d62f1b-b2b5-480c-99e0-dc4c6e8cf810" height="40%" width="40%" alt="#"/>
 
 After clicking OK, I had to enter the admin credentials. Then a window popped up confirming the CLIENT4 machine successfully joined the domain.
 
