@@ -14,7 +14,7 @@ The CLIENT4 machine was not joined to the domain and could not access any of the
 
 To join the domain, I logged in to the CLIENT4 machine using admin credentials. Once logged in, I opened the About page of the system settings and clicked Advanced system settings.
 
-<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/175688ec-9ee8-44cc-946a-13312b89001b" height="70%" width="70%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/175688ec-9ee8-44cc-946a-13312b89001b" height="50%" width="50%" alt="#"/>
 
 In the System Properties window that opened, I selected the Computer Name tab and clicked Change.
 
