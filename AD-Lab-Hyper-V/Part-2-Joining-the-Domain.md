@@ -32,7 +32,7 @@ Next, I had to restart the CLIENT4 machine to apply the changes. After the CLIEN
 
 <img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/11d439fc-238f-43fe-875e-79aedadaa119" height="30%" width="30%" alt="#"/>
 
-<img src="" height="70%" width="70%" alt="#"/>
+<img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/1a3974ec-f0db-4c39-82eb-679972b9b835" height="30%" width="30%" alt="#"/>
 
 On the DC1 machine, I could see CLIENT4 was added to Active Directory Users and Computers under the domain.
 
