@@ -28,9 +28,7 @@ After clicking OK, I had to enter the admin credentials. Then a window popped up
 
 <img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/e8efa3f5-c2b8-41c9-b784-41fd79cf6dd6" height="30%" width="30%" alt="#"/>
 
-Next, I had to restart the CLIENT4 machine to apply the changes.
-
-After the CLIENT4 machine booted back up, I was able to log on with a domain user account.
+Next, I had to restart the CLIENT4 machine to apply the changes. After the CLIENT4 machine booted back up, I was able to log on with a domain user account.
 
 <img src="https://github.com/emann615/Active-Directory-Lab/assets/117882385/88d4ce47-db81-4d19-8e9d-d656b3e9c432" height="50%" width="50%" alt="#"/>
 
