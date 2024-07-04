@@ -26,16 +26,23 @@ I opened the share in File Explorer and created four separate folders for the Fi
 
 <img src="" height="20%" width="20%" alt="#"/>
 
-
 ### Configuring Shadow Copies
 
 I also wanted to make sure that the shared folders are backed up, so I decided to configure shadow copies.
 
 I opened the Disk Management tool a created another simple volume labeled Bakup (B:).
 
+<img src="" height="20%" width="20%" alt="#"/>
+
 Then, I went back to File Explorer, right clicked on Shared Drive (S:) and selected Configure Shadow Copies.
 
 I selected the B volume as the storage location for the shadow copies and adjusted the Schedule settings so that the copies would be created every weekday after business hours at 2 AM.
+
+<img src="" height="20%" width="20%" alt="#"/>
+
+<img src="" height="20%" width="20%" alt="#"/>
+
+<img src="" height="20%" width="20%" alt="#"/>
 
 ### Creating Security Groups
 
