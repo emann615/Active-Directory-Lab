@@ -6,13 +6,26 @@ For this lab I used the GW1 machine as a file server to host the shared folders.
 
 First, I had to set up my drives. GW1 only had a Windows (C:) drive, so I used the Disk Management tool to free up some space and create New Simple Volume to act as my second drive labeled Shared Drive (S:).
 
+<img src="" height="20%" width="20%" alt="#"/>
+
+<img src="" height="20%" width="20%" alt="#"/>
+
 Next, I opened Server Manager and selected File and Storage Services. 
 
 To create a share, I had to add the File Server role, so I opened the Add Roles and Features Wizard to install it.
 
+<img src="" height="20%" width="20%" alt="#"/>
+
+<img src="" height="20%" width="20%" alt="#"/>
+
 Once the File Server role was installed, I created a New Share on the S volume and labeled it SharedNetworkFolders.
 
+<img src="" height="20%" width="20%" alt="#"/>
+
 I opened the share in File Explorer and created four separate folders for the Finance, HR, IT, and Marketing departments.
+
+<img src="" height="20%" width="20%" alt="#"/>
+
 
 ### Configuring Shadow Copies
 
@@ -68,3 +81,5 @@ I opened File Explorer and entered the path to the share folder (\\GW1\Finance) 
 I repeated the process with the HR, IT, and Marketing folders to give access to their department users.
 
 Finally, I created a test text document in each folder and made user users only had access to the folder for their department to confirm the permissions were set correctly.
+
+<img src="" height="20%" width="20%" alt="#"/>
